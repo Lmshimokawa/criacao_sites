@@ -81,24 +81,29 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ## 📍 FASE R — RITUAL DO USUÁRIO
 
-### 🔄 Lição R1 — Jornada do Usuário
-**Status**: Em andamento
+### ✅ Lição R1 — Jornada do Usuário
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2025-01-26
 
 **Entregáveis**:
-- [ ] Mapa da jornada completa (emocional + funcional) - 6 etapas mapeadas
-- [ ] Pontos de fricção identificados
-- [ ] Oportunidades mapeadas
-- [ ] Microdecisões listadas
-- [ ] Prompt reutilizável: `ux-ui__jornada_usuario__v1.0.md`
+- [x] Mapa da jornada completa (emocional + funcional) - 6 etapas mapeadas
+- [x] Pontos de fricção identificados
+- [x] Oportunidades mapeadas
+- [x] Microdecisões listadas
+- [x] Prompt reutilizável: `ux-ui__jornada_usuario__v1.0.md`
+- [x] Documentação completa: `course/R_Ritual_do_Usuario/R1_Jornada_do_Usuario.md`
 
 ---
 
-### ⏳ Lição R2 — Funil de Conversão
-**Status**: Pendente
+### 🔄 Lição R2 — Funil de Conversão
+**Status**: Em andamento
 
 **Entregáveis**:
-- [ ] Funil desenhado (topo, meio, fundo)
+- [ ] Funil desenhado (topo, meio, fundo, pós-conversão)
 - [ ] CTA principal definido
+- [ ] CTAs contextuais por estágio
+- [ ] Canais de entrada mapeados
+- [ ] Dois funis paralelos documentados
 - [ ] Prompt reutilizável: `ux-ui__funil_conversao__v1.0.md`
 
 ---
@@ -230,8 +235,8 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 ## 🎯 Status Geral
 
 **Fase atual**: R — Ritual do Usuário  
-**Lição atual**: R1 — Jornada do Usuário  
-**Progresso**: 3/17 lições concluídas (17.6%) + 1 em andamento
+**Lição atual**: R2 — Funil de Conversão  
+**Progresso**: 4/17 lições concluídas (23.5%) + 1 em andamento
 
 ---
 

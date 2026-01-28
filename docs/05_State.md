@@ -7,7 +7,7 @@
 ## 📍 Fase Atual
 
 **Fase**: R — Ritual do Usuário  
-**Lição**: R1 — Jornada do Usuário  
+**Lição**: R2 — Funil de Conversão  
 **Status**: 🔄 Em andamento
 
 ---
@@ -85,8 +85,8 @@
 
 ## 📊 Métricas do Projeto
 
-- **Lições concluídas**: 3/17 (Fase A completa, R1 em andamento)
-- **Prompts criados**: 3
+- **Lições concluídas**: 4/17 (Fase A completa, R1 concluída, R2 em andamento)
+- **Prompts criados**: 4
 - **Checkpoints criados**: 1
 - **Decisões registradas**: 10
 - **Auditorias realizadas**: 2
@@ -96,8 +96,9 @@
 ## 🎯 Próximos Passos Imediatos
 
 1. ✅ Fase A — Arquitetura de Valor concluída (CHECKPOINT criado)
-2. 🔄 Lição R1 — Jornada do Usuário (em andamento)
-3. Iniciar Lição R2 — Funil de Conversão (após R1)
+2. ✅ Lição R1 — Jornada do Usuário concluída
+3. 🔄 Lição R2 — Funil de Conversão (em andamento)
+4. Iniciar Lição R3 — Arquitetura de Informação (após R2)
 
 ---
 

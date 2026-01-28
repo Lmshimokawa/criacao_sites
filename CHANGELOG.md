@@ -54,8 +54,18 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
   - Validações e consistências verificadas
   - Documento: `course/A_Arquitetura_de_Valor/CHECKPOINT.md`
 
+### Concluído
+- ✅ Lição R1 — Jornada do Usuário:
+  - Conceitos explicados (3 camadas)
+  - Mapa da jornada completa criado (6 etapas)
+  - Pontos de fricção identificados
+  - Oportunidades mapeadas
+  - Microdecisões listadas
+  - Prompt reutilizável: `ux-ui__jornada_usuario__v1.0.md`
+  - Documentação completa: `course/R_Ritual_do_Usuario/R1_Jornada_do_Usuario.md`
+
 ### Em Andamento
-- Lição R1 — Jornada do Usuário (Fase R — Ritual do Usuário)
+- Lição R2 — Funil de Conversão (Fase R — Ritual do Usuário)
 
 ### Adicionado
 - Estrutura completa do repositório (docs/, prompts/, course/, src/, assets/)

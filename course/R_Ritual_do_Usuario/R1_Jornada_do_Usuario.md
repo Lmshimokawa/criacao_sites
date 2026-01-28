@@ -1,8 +1,9 @@
 # Lição R1 — Jornada do Usuário
 
 > **Fase**: R — Ritual do Usuário  
-> **Status**: 🔄 Em andamento  
-> **Data de início**: 2025-01-26
+> **Status**: ✅ Concluída  
+> **Data de início**: 2025-01-26  
+> **Data de conclusão**: 2025-01-26
 
 ---
 
@@ -386,13 +387,13 @@ Após completar esta lição:
 
 ## ✅ Checklist da Lição
 
-- [ ] Conceitos explicados (3 camadas)
-- [ ] Mapa da jornada completa criado (6 etapas)
-- [ ] Pontos de fricção identificados
-- [ ] Oportunidades mapeadas
-- [ ] Microdecisões listadas
-- [ ] Prompt reutilizável criado
-- [ ] Logs atualizados
+- [x] Conceitos explicados (3 camadas)
+- [x] Mapa da jornada completa criado (6 etapas)
+- [x] Pontos de fricção identificados
+- [x] Oportunidades mapeadas
+- [x] Microdecisões listadas
+- [x] Prompt reutilizável criado (`ux-ui__jornada_usuario__v1.0.md`)
+- [x] Logs atualizados
 
 ---
 

@@ -61,10 +61,10 @@ Cada prompt deve seguir este formato:
 
 ## 📊 Status da Biblioteca
 
-- **Total de prompts**: 3
+- **Total de prompts**: 4
 - **Por categoria**:
   - strategy: 3 (`strategy__proposta_valor__v1.0.md`, `strategy__posicionamento__v1.0.md`, `strategy__definicao_oferta__v1.0.md`)
-  - ux-ui: 0
+  - ux-ui: 1 (`ux-ui__jornada_usuario__v1.0.md`)
   - copy: 0
   - seo: 0
   - analytics: 0
