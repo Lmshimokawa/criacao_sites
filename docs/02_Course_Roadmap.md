@@ -95,8 +95,9 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ---
 
-### 🔄 Lição R2 — Funil de Conversão
-**Status**: Em andamento
+### ✅ Lição R2 — Funil de Conversão
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2025-01-26
 
 **Entregáveis**:
 - [ ] Funil desenhado (topo, meio, fundo, pós-conversão)
@@ -108,8 +109,9 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ---
 
-### ⏳ Lição R3 — Arquitetura de Informação
-**Status**: Pendente
+### ✅ Lição R3 — Arquitetura de Informação
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2025-01-26
 
 **Entregáveis**:
 - [ ] Sitemap completo
@@ -234,9 +236,9 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ## 🎯 Status Geral
 
-**Fase atual**: R — Ritual do Usuário  
-**Lição atual**: R2 — Funil de Conversão  
-**Progresso**: 4/17 lições concluídas (23.5%) + 1 em andamento
+**Fase atual**: R — Ritual do Usuário (✅ Concluída)  
+**Próxima fase**: C — Conversão sem Atrito  
+**Progresso**: 6/17 lições concluídas (35.3%)
 
 ---
 

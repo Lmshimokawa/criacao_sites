@@ -7,8 +7,8 @@
 ## 📍 Fase Atual
 
 **Fase**: R — Ritual do Usuário  
-**Lição**: R2 — Funil de Conversão  
-**Status**: 🔄 Em andamento
+**Status**: ✅ Concluída (próximo: Checkpoint R)  
+**Próxima fase**: C — Conversão sem Atrito
 
 ---
 
@@ -85,10 +85,10 @@
 
 ## 📊 Métricas do Projeto
 
-- **Lições concluídas**: 4/17 (Fase A completa, R1 concluída, R2 em andamento)
-- **Prompts criados**: 4
+- **Lições concluídas**: 6/17 (Fase A + R completas)
+- **Prompts criados**: 6
 - **Checkpoints criados**: 1
-- **Decisões registradas**: 10
+- **Decisões registradas**: 15
 - **Auditorias realizadas**: 2
 
 ---
@@ -96,9 +96,10 @@
 ## 🎯 Próximos Passos Imediatos
 
 1. ✅ Fase A — Arquitetura de Valor concluída (CHECKPOINT criado)
-2. ✅ Lição R1 — Jornada do Usuário concluída
-3. 🔄 Lição R2 — Funil de Conversão (em andamento)
-4. Iniciar Lição R3 — Arquitetura de Informação (após R2)
+2. ✅ Fase R — Ritual do Usuário concluída (R1, R2, R3)
+3. Realizar auditoria da Fase R
+4. Criar CHECKPOINT da Fase R
+5. Iniciar Fase C — Conversão sem Atrito
 
 ---
 

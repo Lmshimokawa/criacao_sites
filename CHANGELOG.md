@@ -64,8 +64,33 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
   - Prompt reutilizável: `ux-ui__jornada_usuario__v1.0.md`
   - Documentação completa: `course/R_Ritual_do_Usuario/R1_Jornada_do_Usuario.md`
 
+### Concluído
+- ✅ Lição R2 — Funil de Conversão:
+  - Conceitos explicados (3 camadas)
+  - Funil desenhado (TOFU, MOFU, BOFU, Pós-conversão)
+  - CTA principal e CTAs contextuais definidos
+  - Canais de entrada mapeados
+  - Dois funis paralelos documentados (experiência pessoal + presente)
+  - Estratégia de conversão entre funis (peça → workshop via combo)
+  - Prompt reutilizável: `ux-ui__funil_conversao__v1.0.md`
+  - Documentação completa: `course/R_Ritual_do_Usuario/R2_Funil_de_Conversao.md`
+
+### Concluído
+- ✅ Lição R3 — Arquitetura de Informação:
+  - Conceitos explicados (3 camadas) com foco em mobile-first e comportamento digital moderno
+  - Público-alvo refinado: mulheres jovens (25-35), SP, redes sociais (Instagram/TikTok)
+  - Sitemap ultra-simplificado: 4 páginas no menu (Home, Experiências, Peças, Contato)
+  - Blog escondido (SEO only) — não no menu principal
+  - Contato sem formulário (WhatsApp + chamada de vídeo)
+  - Newsletter para comunidade e lista de espera
+  - Referência: meubenza.com.br (estrutura simples, narrativa, CTAs claros)
+  - Fluxos de conversão em 2-3 cliques
+  - Especificações mobile-first
+  - Prompt reutilizável: `ux-ui__sitemap_mobile_first__v1.0.md`
+  - 5 novas decisões registradas (DEC-011 a DEC-015)
+
 ### Em Andamento
-- Lição R2 — Funil de Conversão (Fase R — Ritual do Usuário)
+- Auditoria da Fase R e criação do CHECKPOINT
 
 ### Adicionado
 - Estrutura completa do repositório (docs/, prompts/, course/, src/, assets/)

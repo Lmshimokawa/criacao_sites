@@ -292,11 +292,141 @@ Cada decisão deve conter:
 
 ---
 
+### DEC-011: Público-Alvo Refinado — Verde Barro
+**Data**: 2025-01-26  
+**Fase**: R — Ritual do Usuário (Lição R3)  
+**Decisão**: Definir público-alvo como mulheres jovens (25-35 anos), São Paulo, médio-alto poder aquisitivo, alta propensão a redes sociais (Instagram/TikTok), antenadas em trends e novas experiências
+
+**Contexto**:
+- Perfil comportamental: Consomem conteúdo em vídeos curtos, não em blogs
+- Entrada principal: Instagram e TikTok
+- Dispositivo: Mobile (90%+ do tráfego)
+- Preferência de contato: WhatsApp (não formulários)
+
+**Justificativa**: 
+- Define todas as decisões de arquitetura e design
+- Guia estratégia de autoridade (redes sociais, não blog)
+- Determina mobile-first como obrigatório
+
+**Impacto**: 
+- Toda arquitetura do site
+- Estratégia de conteúdo
+- Canais de conversão
+
+**Riscos/Trade-offs**: 
+- Risco: Excluir públicos fora do perfil
+- Mitigação: Aceito — foco é melhor que generalização
+
+---
+
+### DEC-012: Arquitetura Mobile-First Simplificada
+**Data**: 2025-01-26  
+**Fase**: R — Ritual do Usuário (Lição R3)  
+**Decisão**: Estrutura ultra-simplificada com apenas 4 páginas no menu principal (Home, Experiências, Peças Autorais, Contato)
+
+**Alternativas consideradas**:
+- Estrutura completa (8+ páginas) — rejeitada por confundir público mobile
+- One-page — rejeitada por limitar SEO e organização
+- Escolhida: 4 páginas principais + blog escondido para SEO
+
+**Justificativa**: 
+- Público tem atenção fragmentada
+- Mobile-first exige simplicidade
+- Conversão em 2-3 cliques
+- Referência: meubenza.com.br (estrutura simples, foco no funil)
+
+**Impacto**: 
+- Site mais simples e focado
+- Melhor experiência mobile
+- Conversão mais rápida
+
+**Riscos/Trade-offs**: 
+- Trade-off: Menos conteúdo detalhado
+- Mitigação: Conteúdo integrado nas páginas principais
+
+---
+
+### DEC-013: Blog Escondido (SEO Only)
+**Data**: 2025-01-26  
+**Fase**: R — Ritual do Usuário (Lição R3)  
+**Decisão**: Blog existe apenas para SEO e indexação em LLMs, não aparece no menu principal (apenas footer)
+
+**Alternativas consideradas**:
+- Blog no menu principal — rejeitada por público não consumir blog
+- Sem blog — rejeitada por perder SEO e indexação em LLMs
+- Escolhida: Blog escondido (SEO only)
+
+**Justificativa**: 
+- Público-alvo não consome blog (consome reels, stories, tiktoks)
+- SEO ainda é relevante para visibilidade no Google
+- Indexação em LLMs (ChatGPT, etc.) como referência de workshops em SP
+- Autoridade construída via redes sociais e prova social no site
+
+**Impacto**: 
+- Blog não compete por atenção no menu
+- SEO mantido como canal secundário
+- Autoridade via redes sociais (Instagram, TikTok)
+
+**Riscos/Trade-offs**: 
+- Risco: SEO mais fraco sem blog visível
+- Mitigação: Páginas principais otimizadas para SEO, blog existe no footer
+
+---
+
+### DEC-014: Contato sem Formulário — WhatsApp + Chamada de Vídeo
+**Data**: 2025-01-26  
+**Fase**: R — Ritual do Usuário (Lição R3)  
+**Decisão**: Página de Contato com WhatsApp direto e agendamento de chamada de vídeo, sem formulário tradicional
+
+**Alternativas consideradas**:
+- Formulário de contato tradicional — rejeitada por público não usar
+- Apenas email — rejeitada por criar fricção
+- Escolhida: WhatsApp + chamada de vídeo + redes sociais
+
+**Justificativa**: 
+- Público-alvo prefere WhatsApp a formulários
+- WhatsApp é mais natural para conversação
+- Chamada de vídeo demonstra premium e personalização
+- Direcionamento para redes sociais reforça comunidade
+
+**Impacto**: 
+- Conversão mais rápida (menos fricção)
+- Melhor experiência para público-alvo
+- Canal de atendimento mais pessoal
+
+**Riscos/Trade-offs**: 
+- Risco: Perder leads que preferem email
+- Mitigação: Email disponível como texto (não formulário)
+
+---
+
+### DEC-015: Newsletter para Comunidade e Lista de Espera
+**Data**: 2025-01-26  
+**Fase**: R — Ritual do Usuário (Lição R3)  
+**Decisão**: Newsletter como canal de comunidade e lista de espera, integrada na Home e Footer
+
+**Justificativa**: 
+- Canal próprio (não depende de algoritmos de redes sociais)
+- Cria relacionamento com público
+- Lista de espera para workshops
+- Antecipa demanda
+
+**Impacto**: 
+- Canal de comunicação direta
+- Construção de comunidade
+- Base de leads para futuras ações
+
+**Riscos/Trade-offs**: 
+- Risco: Baixa taxa de inscrição
+- Mitigação: Oferecer valor (conteúdo exclusivo, acesso antecipado)
+
+---
+
 ## 📊 Estatísticas
 
-- **Total de decisões registradas**: 10
+- **Total de decisões registradas**: 15
 - **Decisões pendentes**: 1
-- **Última atualização**: 2025-01-25
+- **Última atualização**: 2025-01-26
 
 ---
 

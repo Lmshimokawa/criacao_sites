@@ -1,8 +1,9 @@
 # Lição R2 — Funil de Conversão
 
 > **Fase**: R — Ritual do Usuário  
-> **Status**: 🔄 Em andamento  
-> **Data de início**: 2025-01-27
+> **Status**: ✅ Concluída  
+> **Data de início**: 2025-01-26  
+> **Data de conclusão**: 2025-01-26
 
 ---
 
@@ -378,16 +379,16 @@ Após completar esta lição:
 
 ## ✅ Checklist da Lição
 
-- [ ] Conceitos explicados (3 camadas)
-- [ ] Funil desenhado (TOFU, MOFU, BOFU, Pós-conversão)
-- [ ] CTA principal definido
-- [ ] CTAs contextuais por estágio criados
-- [ ] Canais de entrada mapeados
-- [ ] Dois funis paralelos documentados
-- [ ] Estratégia de conversão entre funis definida
-- [ ] Prompt reutilizável criado
-- [ ] Logs atualizados
+- [x] Conceitos explicados (3 camadas)
+- [x] Funil desenhado (TOFU, MOFU, BOFU, Pós-conversão)
+- [x] CTA principal definido
+- [x] CTAs contextuais por estágio criados
+- [x] Canais de entrada mapeados
+- [x] Dois funis paralelos documentados
+- [x] Estratégia de conversão entre funis definida
+- [x] Prompt reutilizável criado (`ux-ui__funil_conversao__v1.0.md`)
+- [x] Logs atualizados
 
 ---
 
-**Última atualização**: 2025-01-26
+**Última atualização**: 2025-01-28
