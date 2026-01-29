@@ -89,8 +89,20 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
   - Prompt reutilizável: `ux-ui__sitemap_mobile_first__v1.0.md`
   - 5 novas decisões registradas (DEC-011 a DEC-015)
 
+### Concluído
+- ✅ Auditoria da Fase R (AUD-003, AUD-004)
+  - Verificada consistência entre R1, R2, R3 e Fase A
+  - R3 definido como fonte de verdade para arquitetura
+  - Todas as 18 decisões verificadas e alinhadas
+- ✅ CHECKPOINT da Fase R criado
+  - Sitemap final documentado (4 páginas principais)
+  - Ofertas refinadas (Modelagem + Pintura + Peças)
+  - Público-alvo definido (mulheres 25-35, SP, redes sociais)
+  - Checkout compartilhável documentado
+  - 3 prompts de UX-UI aprovados
+
 ### Em Andamento
-- Auditoria da Fase R e criação do CHECKPOINT
+- Fase C — Conversão sem Atrito (iniciando C1)
 
 ### Adicionado
 - Estrutura completa do repositório (docs/, prompts/, course/, src/, assets/)

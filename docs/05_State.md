@@ -6,9 +6,9 @@
 
 ## 📍 Fase Atual
 
-**Fase**: R — Ritual do Usuário  
-**Status**: ✅ Concluída (próximo: Checkpoint R)  
-**Próxima fase**: C — Conversão sem Atrito
+**Fase**: C — Conversão sem Atrito  
+**Lição**: C1 — Wireframes / Layout  
+**Status**: 🔄 Em andamento
 
 ---
 
@@ -87,19 +87,20 @@
 
 - **Lições concluídas**: 6/17 (Fase A + R completas)
 - **Prompts criados**: 6
-- **Checkpoints criados**: 1
-- **Decisões registradas**: 15
-- **Auditorias realizadas**: 2
+- **Checkpoints criados**: 2
+- **Decisões registradas**: 18
+- **Auditorias realizadas**: 4
 
 ---
 
 ## 🎯 Próximos Passos Imediatos
 
 1. ✅ Fase A — Arquitetura de Valor concluída (CHECKPOINT criado)
-2. ✅ Fase R — Ritual do Usuário concluída (R1, R2, R3)
-3. Realizar auditoria da Fase R
-4. Criar CHECKPOINT da Fase R
-5. Iniciar Fase C — Conversão sem Atrito
+2. ✅ Fase R — Ritual do Usuário concluída (CHECKPOINT criado)
+3. 🔄 Fase C — Conversão sem Atrito (em andamento)
+   - Lição C1: Wireframes / Layout
+   - Lição C2: Copy das Páginas
+   - Lição C3: CTAs e Microcopy
 
 ---
 

@@ -124,8 +124,8 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ## 📍 FASE C — CONVERSÃO SEM ATRITO
 
-### ⏳ Lição C1 — UX para Serviços Premium
-**Status**: Pendente
+### 🔄 Lição C1 — Wireframes / Layout (Mobile-First)
+**Status**: Em andamento
 
 **Entregáveis**:
 - [ ] Wireframes lógicos
@@ -236,8 +236,8 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ## 🎯 Status Geral
 
-**Fase atual**: R — Ritual do Usuário (✅ Concluída)  
-**Próxima fase**: C — Conversão sem Atrito  
+**Fase atual**: C — Conversão sem Atrito  
+**Lição atual**: C1 — Wireframes / Layout  
 **Progresso**: 6/17 lições concluídas (35.3%)
 
 ---

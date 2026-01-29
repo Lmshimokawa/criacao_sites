@@ -421,13 +421,15 @@ Menu aberto:
 
 ### 4. Conteúdo Mínimo por Página
 
-**HOME**:
+---
+
+#### **HOME**
 
 *Hero*:
 - Headline com proposta de valor (inspirado em "o seu novo jeito de...")
 - Subheadline emocional
 - CTA principal ("Conheça as Experiências" ou "Fale no WhatsApp")
-- Visual impactante (foto/vídeo de workshop)
+- Visual impactante (foto/vídeo de workshop em grupo)
 
 *Sobre a Fundadora*:
 - História pessoal e autêntica
@@ -435,14 +437,21 @@ Menu aberto:
 - Conexão emocional
 
 *O que Oferecemos*:
-- Card: Experiências (workshops na sua casa) — CTA
-- Card: Peças Autorais (arte para sua casa) — CTA
+- Card: **Experiência: Modelagem em Cerâmica** — experiência de criar com as mãos — CTA
+- Card: **Experiência: Pintura em Cerâmica** — experiência de colorir e personalizar — CTA
+- Card: **Peças Autorais** — arte para sua casa — CTA
+
+*Como Funciona (resumo)*:
+- "Reúna 2 a 8 pessoas"
+- "Escolha modelagem ou pintura"
+- "Nós vamos até você"
+- "Criem memórias juntos"
 
 *Prova Social*:
-- Depoimentos de clientes (com foto/vídeo)
+- Depoimentos de clientes (com foto/vídeo de grupos)
 - Fotos de experiências reais
 - UGC (se houver)
-- Números (se relevante: "X workshops realizados")
+- Números (se relevante: "X experiências realizadas")
 
 *Newsletter*:
 - Headline: "Faça parte da comunidade Verde Barro"
@@ -455,51 +464,129 @@ Menu aberto:
 
 ---
 
-**EXPERIÊNCIAS**:
+#### **EXPERIÊNCIAS** (página principal)
 
 *Hero*:
 - Headline: Proposta de valor de workshops
 - Subheadline: "Workshops de cerâmica na sua casa, em São Paulo"
-- Visual impactante
-
-*Como Funciona*:
-- Passo 1: Você agenda
-- Passo 2: Vamos até você
-- Passo 3: Criamos juntos
-- Passo 4: Você leva sua peça
-- (Visual: ícones ou fotos)
-
-*O que Está Incluso*:
-- Lista clara do que está incluso
-- Lista do que NÃO está incluso
+- Destaque: "Para 2 a 8 pessoas"
+- Visual impactante (grupo criando)
 
 *Tipos de Experiência*:
-- Experiência pessoal (para você)
-- Experiência compartilhada (com amigos/família)
-- Presentear alguém (experiência como presente)
+
+**Card 1: Modelagem em Cerâmica**
+- O que é: Criar peças com as mãos no torno e/ou modelagem manual
+- Para quem: Quem quer sentir a argila, criar do zero
+- Duração estimada: X horas
+- CTA: "Quero modelar"
+
+**Card 2: Pintura em Cerâmica**
+- O que é: Pintar e personalizar peças já modeladas
+- Para quem: Quem prefere cores, acabamento, personalização
+- Duração estimada: X horas
+- CTA: "Quero pintar"
+
+*Como Funciona*:
+- Passo 1: Escolha a experiência (modelagem ou pintura)
+- Passo 2: Reúna seu grupo (2 a 8 pessoas)
+- Passo 3: Agende a data
+- Passo 4: Nós vamos até você com tudo preparado
+- Passo 5: Criem juntos e levem suas peças
+- (Visual: ícones ou fotos de cada etapa)
+
+*Formatos de Experiência*:
+
+**Experiência Compartilhada**
+- Você e seu grupo (amigos, família, colegas)
+- Ideal para: aniversários, despedidas, confraternizações, reuniões
+- 2 a 8 pessoas
+
+**Experiência Presente**
+- Presente uma experiência para alguém especial
+- Quem presenteia pode participar junto
+- O presenteado reúne o grupo e agenda
+- 2 a 8 pessoas
+
+*O que Está Incluso*:
+- Lista clara do que está incluso (materiais, facilitadora, peças, etc.)
+- Lista do que NÃO está incluso (espaço, alimentação, etc.)
+- Nota: "Mínimo 2 pessoas, máximo 8 pessoas por experiência. Caso o grupo seja acima de 8 pessoas, entre em contato"
 
 *Preços*:
-- Estrutura de preços clara
-- O que cada opção inclui
+- Estrutura de preços clara por pessoa
+- O que cada experiência inclui
 - (Sem esconder preço — transparência)
 
 *FAQ Integrado*:
-- "Preciso ter experiência?" — Não...
-- "Quanto tempo dura?" — 3-4 horas...
-- "Como funciona o agendamento?" — Via WhatsApp...
+- "Preciso ter experiência prévia?" — Não, guiamos você do zero...
+- "Quantas pessoas podem participar?" — De 2 a 8 pessoas...
+- "Quanto tempo dura?" — X horas...
+- "Posso presentear alguém?" — Sim, você pode presentear e participar junto...
+- "Como funciona o pagamento em grupo?" — Você pode compartilhar o link de pagamento...
 - (Apenas perguntas mais frequentes)
 
 *Prova Social*:
-- Depoimentos específicos de workshops
-- Fotos de experiências
+- Depoimentos específicos de experiências
+- Fotos de grupos em ação
+- Vídeos curtos (se houver)
 
 *CTA Final*:
-- "Agende sua experiência" (WhatsApp ou calendário)
+- "Agendar Experiência" (checkout com funcionalidade de grupo)
 - Nota: "Experiências disponíveis apenas em São Paulo"
 
 ---
 
-**PEÇAS AUTORAIS**:
+#### **CHECKOUT DE EXPERIÊNCIAS** (fluxo, não página separada)
+
+*Funcionalidade Inovadora: Pagamento Compartilhado*
+
+**Conceito**: Quando alguém inicia uma compra, pode gerar um link de pagamento compartilhável. Outras pessoas do grupo podem acessar o link, adicionar seu pagamento e finalizar. Isso:
+- Facilita divisão de custos
+- Cria viralização orgânica (boca a boca)
+- Torna o checkout uma experiência social/interativa
+
+**Fluxo do Checkout**:
+```
+1. Usuário escolhe experiência (modelagem ou pintura)
+   ↓
+2. Seleciona número de pessoas (2-8)
+   ↓
+3. Escolhe formato:
+   - "Vou pagar por todos" → checkout individual
+   - "Vamos dividir" → gera link compartilhável
+   ↓
+4a. (Checkout individual)
+    - Paga valor total
+    - Recebe confirmação
+    - Agenda data
+   ↓
+4b. (Link compartilhável)
+    - Gera link único da experiência
+    - Mostra: "2/6 pessoas confirmadas" (barra de progresso visual)
+    - Cada pessoa acessa, paga sua parte, confirma presença
+    - Quando completo, organizador agenda data
+   ↓
+5. Confirmação + instruções + adicionar ao calendário
+```
+
+**Elementos do Link Compartilhável**:
+- Visual atrativo (mini landing page)
+- Quem está organizando (nome + foto opcional)
+- Qual experiência
+- Quantas vagas / quantas preenchidas (barra de progresso)
+- "Falta você!" — urgência/escassez
+- CTA: "Confirmar minha presença" (pagar)
+- Compartilhar: WhatsApp, Instagram DM, copiar link
+
+**Viralização Orgânica**:
+- Cada link compartilhado = exposição da marca para novas pessoas
+- Interface bonita e compartilhável (Instagram-friendly)
+- "Fulana te convidou para uma experiência Verde Barro"
+- Fomenta boca a boca sem esforço adicional
+
+---
+
+#### **PEÇAS AUTORAIS**
 
 *Hero*:
 - Headline: Proposta de valor de peças
@@ -514,16 +601,17 @@ Menu aberto:
 *Catálogo*:
 - Grid de peças disponíveis
 - Preço por peça
-- CTA: Comprar
+- CTA: "Comprar"
 
 *Combo*:
-- Destaque: "Compre uma peça e ganhe 20% de desconto no workshop"
+- Destaque: "Compre uma peça e ganhe 20% de desconto na experiência"
 - Explicação do combo
-- CTA: Ver experiências
+- CTA: "Ver experiências"
 
 *FAQ Integrado*:
 - "Como funciona a entrega?" — Entregamos para todo Brasil...
-- "As peças são únicas?" — Sim, cada peça...
+- "As peças são únicas?" — Sim, cada peça é feita à mão...
+- "Posso encomendar uma peça personalizada?" — [resposta]
 - (Apenas perguntas mais frequentes)
 
 *CTA Final*:
@@ -532,7 +620,7 @@ Menu aberto:
 
 ---
 
-**CONTATO**:
+#### **CONTATO**
 
 *Hero*:
 - Headline: "Vamos conversar?"
@@ -553,11 +641,11 @@ Menu aberto:
 - Instagram (link + CTA "Seguir")
 - TikTok (link + CTA "Seguir")
 
-*Sem formulário de email* — Se precisar, email disponível como texto: "Ou envie um email para: contato@verdebarro.com.br"
+*Sem formulário de email* — Se precisar, email disponível como texto: "Ou envie um email para: verdebarroceramica@gmail.com"
 
 ---
 
-**BLOG (SEO only)**:
+#### **BLOG (SEO only)**
 
 *Propósito*:
 - Indexação no Google
@@ -575,22 +663,75 @@ Menu aberto:
 
 ### 5. Fluxos de Conversão
 
-**Fluxo Principal: Instagram/TikTok → Workshop**
+**Fluxo 1: Organizador direto (paga por todos)**
 ```
 [Reel/Story no Instagram/TikTok]
     ↓
-[Link na bio ou swipe up]
+[Link na bio]
     ↓
 [Home — narrativa, identifica-se]
     ↓
-[Experiências — entende como funciona]
+[Experiências — escolhe modelagem ou pintura]
     ↓
-[WhatsApp — agenda]
+[Checkout — "Vou pagar por todos"]
     ↓
-CONVERSÃO: Workshop agendado
+[Paga valor total]
+    ↓
+CONVERSÃO: Experiência comprada → agenda data
 ```
 
-**Fluxo Secundário: Peça → Workshop**
+**Fluxo 2: Organizador com link compartilhado (divisão)**
+```
+[Reel/Story no Instagram/TikTok]
+    ↓
+[Link na bio]
+    ↓
+[Home → Experiências]
+    ↓
+[Checkout — "Vamos dividir" — gera link]
+    ↓
+[Compartilha link no WhatsApp/Instagram]
+    ↓
+[Amigos acessam, pagam sua parte]
+    ↓
+CONVERSÃO: Experiência completa → organiza agenda
+    ↓
+VIRALIZAÇÃO: Cada amigo conheceu a marca
+```
+
+**Fluxo 3: Convidado via link (viralização)**
+```
+[Recebe link de amigo no WhatsApp/Instagram]
+    ↓
+[Mini landing page: "Fulana te convidou"]
+    ↓
+[Vê experiência, quem já confirmou]
+    ↓
+[Paga sua parte]
+    ↓
+CONVERSÃO: +1 participante confirmado
+    ↓
+POTENCIAL: Conheceu a marca, pode organizar no futuro
+```
+
+**Fluxo 4: Presente (experiência para alguém)**
+```
+[Instagram/TikTok]
+    ↓
+[Home → Experiências]
+    ↓
+[Seleciona "Quero presentear"]
+    ↓
+[Checkout — paga valor total ou gera link]
+    ↓
+CONVERSÃO: Presente comprado
+    ↓
+[Presenteado recebe link/voucher]
+    ↓
+[Presenteado reúne grupo e agenda]
+```
+
+**Fluxo 5: Peça → Experiência (upsell)**
 ```
 [Instagram/TikTok]
     ↓
@@ -600,24 +741,24 @@ CONVERSÃO: Workshop agendado
     ↓
 CONVERSÃO 1: Peça comprada + Cupom 20%
     ↓
+[Email/WhatsApp com cupom]
+    ↓
 [Experiências — usa cupom]
     ↓
-[WhatsApp — agenda com desconto]
-    ↓
-CONVERSÃO 2: Workshop agendado
+CONVERSÃO 2: Experiência agendada
 ```
 
-**Fluxo SEO/LLM (backup)**
+**Fluxo 6: SEO/LLM (backup)**
 ```
-[Google: "workshop cerâmica São Paulo"]
+[Google: "experiência cerâmica São Paulo"]
     ↓
 [Blog — artigo relevante]
     ↓
 [CTA no artigo → Experiências]
     ↓
-[WhatsApp — agenda]
+[Checkout]
     ↓
-CONVERSÃO: Workshop agendado
+CONVERSÃO: Experiência comprada
 ```
 
 ---

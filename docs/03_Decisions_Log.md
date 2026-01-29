@@ -422,11 +422,92 @@ Cada decisão deve conter:
 
 ---
 
+### DEC-016: Ofertas Refinadas — Modelagem e Pintura
+**Data**: 2025-01-28  
+**Fase**: R — Ritual do Usuário (Lição R3 - ajuste)  
+**Decisão**: Definir duas experiências distintas: (1) Modelagem em Cerâmica, (2) Pintura em Cerâmica, além de Peças Autorais
+
+**Contexto**:
+- Modelagem: criar peças do zero com argila
+- Pintura: personalizar peças já modeladas
+- Públicos e preferências diferentes
+
+**Justificativa**: 
+- Oferece opções claras para diferentes perfis
+- Pintura pode ter barreira de entrada menor
+- Modelagem atrai quem quer experiência mais imersiva
+
+**Impacto**: 
+- Página de experiências com dois cards de oferta
+- Checkout diferenciado por tipo
+
+**Riscos/Trade-offs**: 
+- Trade-off: Mais complexidade operacional
+- Mitigação: Estrutura de preços e logística alinhadas
+
+---
+
+### DEC-017: Experiências para Grupos (2-8 pessoas) — Não 1:1
+**Data**: 2025-01-28  
+**Fase**: R — Ritual do Usuário (Lição R3 - ajuste)  
+**Decisão**: Experiências são exclusivamente para grupos de 2 a 8 pessoas. Não haverá experiência individual 1:1.
+
+**Contexto**:
+- Experiência compartilhada é o core do valor (memórias juntos)
+- Operacionalmente mais eficiente
+- Reforça posicionamento de experiência social
+
+**Justificativa**: 
+- Alinha com proposta de valor (criar memórias compartilhadas)
+- Ticket médio maior por sessão
+- Diferenciação de cursos/ateliês individuais
+
+**Impacto**: 
+- Copy e comunicação focam em grupo
+- Checkout exige mínimo 2 pessoas
+- FAQ esclarece regra
+
+**Riscos/Trade-offs**: 
+- Risco: Perder clientes que querem experiência solo
+- Mitigação: Aceito — foco em experiência compartilhada é diferencial
+
+---
+
+### DEC-018: Checkout com Link Compartilhável — Pagamento Dividido
+**Data**: 2025-01-28  
+**Fase**: R — Ritual do Usuário (Lição R3 - ajuste)  
+**Decisão**: Implementar funcionalidade de checkout com link compartilhável, permitindo que múltiplas pessoas paguem e confirmem presença de forma interativa
+
+**Conceito**:
+- Organizador gera link único da experiência
+- Compartilha via WhatsApp/Instagram
+- Cada convidado acessa, paga sua parte, confirma presença
+- Barra de progresso visual ("3/6 confirmados")
+- Quando completo, organiza agenda
+
+**Justificativa**: 
+- Facilita divisão de custos (barreira comum em grupos)
+- Cria viralização orgânica (cada link = exposição da marca)
+- Experiência de checkout social e interativa
+- Alinhado com comportamento do público (compartilhar no WhatsApp/Instagram)
+
+**Impacto**: 
+- Desenvolvimento de funcionalidade específica no checkout
+- Mini landing pages para cada link
+- Potencial viral significativo
+
+**Riscos/Trade-offs**: 
+- Risco: Complexidade técnica de implementação
+- Risco: Links não completados (grupos que não fecham)
+- Mitigação: Timeout para links, lembretes automáticos, opção de pagar por todos
+
+---
+
 ## 📊 Estatísticas
 
-- **Total de decisões registradas**: 15
+- **Total de decisões registradas**: 18
 - **Decisões pendentes**: 1
-- **Última atualização**: 2025-01-26
+- **Última atualização**: 2025-01-28
 
 ---
 
