@@ -101,8 +101,52 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
   - Checkout compartilhável documentado
   - 3 prompts de UX-UI aprovados
 
+### Concluído
+- ✅ Lição C1 — Wireframes / Layout:
+  - Wireframes mobile-first para todas as páginas (HOME, EXPERIÊNCIAS, PEÇAS, CONTATO)
+  - Fluxo completo de checkout compartilhável wireframado
+  - Prompt reutilizável: `ux-ui__wireframes_mobile_first__v1.0.md`
+
+- ✅ Lição C2 — Copy das Páginas:
+  - Copy completo para HOME (hero, sobre, ofertas, como funciona, prova social, newsletter)
+  - Copy completo para EXPERIÊNCIAS (tipos, formatos, incluso, FAQ)
+  - Copy completo para CHECKOUT COMPARTILHÁVEL (todas as telas do fluxo)
+  - Copy completo para PEÇAS AUTORAIS (história, catálogo, combo)
+  - Copy completo para CONTATO (WhatsApp, chamada de vídeo, redes)
+  - Elementos globais (header, footer, meta tags SEO)
+  - Prompt reutilizável: `copy__paginas_experiencias__v1.0.md`
+
+### Concluído
+- ✅ Lição C3 — Canais de Conversão:
+  - Mapa completo de todos os canais
+  - WhatsApp: click-to-chat, mensagens pré-preenchidas, horários
+  - Checkout individual: fluxo de 7 etapas
+  - Checkout compartilhável: fluxo organizador + convidado + regras de negócio
+  - Checkout e-commerce: peças autorais com cupom
+  - Agendamento: opções Cal.com/Calendly, campos
+  - Email: automações welcome, carrinho abandonado, pós-compra
+  - Chamada de vídeo: script e configuração
+  - Integrações técnicas: stack recomendada (Next.js, Stripe, Resend, Cal.com)
+  - Prompt reutilizável: `ux-ui__canais_conversao__v1.0.md`
+
+### Concluído
+- ✅ CHECKPOINT Fase C criado
+  - Resumo de wireframes, copy e canais
+  - Checkout compartilhável especificado
+  - Stack técnica recomendada
+  - 3 prompts aprovados (wireframes, copy, canais)
+
+### Concluído
+- ✅ Lição O1 — Como um Site Funciona:
+  - Fluxo de requisição web (DNS → servidor → resposta)
+  - Tipos de sites (estático, SSR, SPA, híbrido)
+  - Arquitetura proposta: híbrido com serverless
+  - Glossário técnico (DNS, CDN, API, SSG, etc.)
+  - Checklist de infraestrutura (domínio, hospedagem, banco, pagamentos)
+  - Estimativa de custos: R$ 7-60/mês (início)
+
 ### Em Andamento
-- Fase C — Conversão sem Atrito (iniciando C1)
+- Lição O2 — Stack Tecnológica
 
 ### Adicionado
 - Estrutura completa do repositório (docs/, prompts/, course/, src/, assets/)

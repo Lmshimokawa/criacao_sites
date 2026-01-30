@@ -6,8 +6,8 @@
 
 ## 📍 Fase Atual
 
-**Fase**: C — Conversão sem Atrito  
-**Lição**: C1 — Wireframes / Layout  
+**Fase**: O — Operação & Infraestrutura  
+**Lição**: O2 — Stack Tecnológica  
 **Status**: 🔄 Em andamento
 
 ---
@@ -85,9 +85,9 @@
 
 ## 📊 Métricas do Projeto
 
-- **Lições concluídas**: 6/17 (Fase A + R completas)
-- **Prompts criados**: 6
-- **Checkpoints criados**: 2
+- **Lições concluídas**: 10/17 (Fase A + R + C completas, O1 concluída)
+- **Prompts criados**: 9
+- **Checkpoints criados**: 3
 - **Decisões registradas**: 18
 - **Auditorias realizadas**: 4
 
@@ -97,10 +97,11 @@
 
 1. ✅ Fase A — Arquitetura de Valor concluída (CHECKPOINT criado)
 2. ✅ Fase R — Ritual do Usuário concluída (CHECKPOINT criado)
-3. 🔄 Fase C — Conversão sem Atrito (em andamento)
-   - Lição C1: Wireframes / Layout
-   - Lição C2: Copy das Páginas
-   - Lição C3: CTAs e Microcopy
+3. ✅ Fase C — Conversão sem Atrito concluída (CHECKPOINT criado)
+4. 🔄 Fase O — Operação & Infraestrutura (em andamento)
+   - Lição O1: Como um Site Funciona
+   - Lição O2: Escolha de Stack
+   - Lição O3: Implementação
 
 ---
 

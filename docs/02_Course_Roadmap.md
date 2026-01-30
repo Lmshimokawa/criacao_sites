@@ -124,32 +124,50 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ## 📍 FASE C — CONVERSÃO SEM ATRITO
 
-### 🔄 Lição C1 — Wireframes / Layout (Mobile-First)
-**Status**: Em andamento
+### ✅ Lição C1 — Wireframes / Layout (Mobile-First)
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2025-01-28
 
 **Entregáveis**:
-- [ ] Wireframes lógicos
-- [ ] Prompt reutilizável: `ux-ui__wireframes_premium__v1.0.md`
+- [x] Wireframe HOME (mobile)
+- [x] Wireframe EXPERIÊNCIAS (mobile)
+- [x] Wireframe CHECKOUT COMPARTILHÁVEL (fluxo completo)
+- [x] Wireframe PEÇAS AUTORAIS (mobile)
+- [x] Wireframe CONTATO (mobile)
+- [x] Prompt reutilizável: `ux-ui__wireframes_mobile_first__v1.0.md`
 
 ---
 
-### ⏳ Lição C2 — Copywriting de Conversão
-**Status**: Pendente
+### ✅ Lição C2 — Copy das Páginas
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2025-01-28
 
 **Entregáveis**:
-- [ ] Copy base da Home
-- [ ] Copy das páginas de experiência
-- [ ] Prompt reutilizável: `copy__conversao_premium__v1.0.md`
+- [x] Copy HOME completo (hero, sobre, ofertas, como funciona, prova social, newsletter)
+- [x] Copy EXPERIÊNCIAS completo (tipos, formatos, incluso, FAQ)
+- [x] Copy CHECKOUT COMPARTILHÁVEL (todas as telas do fluxo)
+- [x] Copy PEÇAS AUTORAIS (história, catálogo, combo)
+- [x] Copy CONTATO (WhatsApp, chamada de vídeo, redes)
+- [x] Elementos globais (header, footer, meta tags SEO)
+- [x] Prompt reutilizável: `copy__paginas_experiencias__v1.0.md`
 
 ---
 
-### ⏳ Lição C3 — Canais de Conversão
-**Status**: Pendente
+### ✅ Lição C3 — Canais de Conversão
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2025-01-28
 
 **Entregáveis**:
-- [ ] Fluxo completo de conversão
-- [ ] Integrações definidas (WhatsApp, formulário, agendamento, checkout)
-- [ ] Prompt reutilizável: `ux-ui__canais_conversao__v1.0.md`
+- [x] Mapa de canais de conversão
+- [x] Canal WhatsApp (click-to-chat, mensagens, horários)
+- [x] Checkout individual (experiências) — fluxo completo
+- [x] Checkout compartilhável (experiências) — fluxo completo com regras
+- [x] Checkout e-commerce (peças)
+- [x] Agendamento (opções e campos)
+- [x] Newsletter/Email (automações: welcome, carrinho, pós-compra)
+- [x] Chamada de vídeo (script e config)
+- [x] Integrações técnicas (stack recomendada)
+- [x] Prompt reutilizável: `ux-ui__canais_conversao__v1.0.md`
 
 **Checkpoint C**: `course/C_Conversao_sem_Atrito/CHECKPOINT.md`
 
@@ -157,16 +175,22 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ## 📍 FASE O — OPERAÇÃO & INFRAESTRUTURA
 
-### ⏳ Lição O1 — Como um Site Funciona
-**Status**: Pendente
+### ✅ Lição O1 — Como um Site Funciona
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2025-01-28
 
-**Conceitos**:
-- Front-end, back-end, HTTP, APIs, banco de dados
+**Entregáveis**:
+- [x] Fluxo de requisição web explicado
+- [x] Tipos de sites comparados (estático, SSR, SPA, híbrido)
+- [x] Arquitetura para Verde Barro proposta (híbrido + serverless)
+- [x] Glossário técnico (10 termos)
+- [x] Checklist de infraestrutura
+- [x] Estimativa de custos (início: R$ 7-60/mês)
 
 ---
 
-### ⏳ Lição O2 — Stack Tecnológica
-**Status**: Pendente
+### 🔄 Lição O2 — Stack Tecnológica
+**Status**: Em andamento
 
 **Entregáveis**:
 - [ ] Stack escolhida (2 opções propostas + decisão)

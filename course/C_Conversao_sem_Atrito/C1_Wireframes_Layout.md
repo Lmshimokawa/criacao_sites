@@ -1,8 +1,9 @@
 # Lição C1 — Wireframes / Layout (Mobile-First)
 
 > **Fase**: C — Conversão sem Atrito  
-> **Status**: 🔄 Em andamento  
-> **Data de início**: 2025-01-28
+> **Status**: ✅ Concluída  
+> **Data de início**: 2025-01-28  
+> **Data de conclusão**: 2025-01-28
 
 ---
 
@@ -163,7 +164,7 @@ Criar **wireframes mobile-first** para todas as páginas do site Verde Barro, de
 │                                     │
 │    ┌─────────────────────────┐      │
 │    │  [Foto do grupo]        │      │
-│    │  ★★★★★                   │      │
+│    │  ★★★★★                │      │
 │    │  "Foi incrível! A       │      │
 │    │   experiência mais      │      │
 │    │   especial que já       │      │
@@ -212,7 +213,7 @@ Criar **wireframes mobile-first** para todas as páginas do site Verde Barro, de
 │                                     │
 │    Política | Termos                │
 │                                     │
-│    © 2025 Verde Barro               │
+│    © 2026 Verde Barro               │
 └─────────────────────────────────────┘
 
 ┌─────────────────────────────────────┐
@@ -235,7 +236,7 @@ Criar **wireframes mobile-first** para todas as páginas do site Verde Barro, de
 │                                     │
 │           HERO                      │
 │                                     │
-│      [Foto grupo criando]           │
+│      [Foto/video grupo criando]     │
 │                                     │
 │    Experiências de Cerâmica         │
 │    ────────────────────────         │
@@ -390,7 +391,8 @@ Criar **wireframes mobile-first** para todas as páginas do site Verde Barro, de
 │                                     │
 │    [Carrossel de depoimentos]       │
 │                                     │
-│    [Fotos reais de experiências]    │
+│    [Fotos e videos reais            │
+│     de experiências]                │
 │                                     │
 └─────────────────────────────────────┘
 
@@ -560,7 +562,7 @@ Criar **wireframes mobile-first** para todas as páginas do site Verde Barro, de
 │                                     │
 │    MODELAGEM EM CERÂMICA            │
 │                                     │
-│    [Foto da experiência]            │
+│    [Foto/video da experiência]      │
 │                                     │
 │    Crie peças do zero com           │
 │    argila, na casa da Maria         │
@@ -624,7 +626,7 @@ Criar **wireframes mobile-first** para todas as páginas do site Verde Barro, de
 │                                     │
 │           HERO                      │
 │                                     │
-│      [Foto peças autorais]          │
+│      [Foto/video peças autorais]    │
 │                                     │
 │    Peças Autorais                   │
 │    ───────────────                  │
@@ -759,13 +761,13 @@ Criar **wireframes mobile-first** para todas as páginas do site Verde Barro, de
 │                                     │
 │    ┌─────────────────────────┐      │
 │    │  [IG] Instagram         │      │
-│    │  @verdebarro            │      │
+│    │  @verdebarro.ceramica   │      │
 │    │  [ Seguir ]             │      │
 │    └─────────────────────────┘      │
 │                                     │
 │    ┌─────────────────────────┐      │
 │    │  [TT] TikTok            │      │
-│    │  @verdebarro            │      │
+│    │  @camramoss_            │      │
 │    │  [ Seguir ]             │      │
 │    └─────────────────────────┘      │
 │                                     │
@@ -776,7 +778,7 @@ Criar **wireframes mobile-first** para todas as páginas do site Verde Barro, de
 │    ✉️ EMAIL                         │
 │                                     │
 │    Prefere email?                   │
-│    contato@verdebarro.com.br        │
+│    verdebarro@gmail.com             │
 │                                     │
 └─────────────────────────────────────┘
 
@@ -834,8 +836,8 @@ Criar **wireframes mobile-first** para todas as páginas do site Verde Barro, de
 - [x] Wireframe CHECKOUT COMPARTILHÁVEL criado
 - [x] Wireframe PEÇAS AUTORAIS criado
 - [x] Wireframe CONTATO criado
-- [ ] Prompt reutilizável criado
-- [ ] Logs atualizados
+- [x] Prompt reutilizável criado (`ux-ui__wireframes_mobile_first__v1.0.md`)
+- [x] Logs atualizados
 
 ---
 
