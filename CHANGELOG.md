@@ -164,15 +164,19 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
     - Cupom de peça autoral: 20% off, validade 2 meses
     - Suporte a parcerias com influenciadoras
 
-### Em Andamento
-- 🔄 Lição O3 — Infraestrutura Básica:
+### Concluído
+- ✅ Lição O3 — Infraestrutura Básica:
   - Guia completo de setup em 10 etapas
-  - Checklist de contas: GitHub, Vercel, Supabase, Stripe, Resend, Cal.com
-  - Script SQL pronto para criar 8 tabelas no Supabase
-  - Código base para clientes (Supabase, Stripe, Resend)
-  - Página Home básica em React/Next.js
-  - Instruções de deploy na Vercel
-  - **Pendente**: Execução prática do setup
+  - Estrutura base do projeto executada (Etapa 8)
+  - Página Home básica + newsletter
+  - API routes (solicitação, checkout, webhooks Stripe, newsletter)
+  - Webhook Stripe testado
+  - O3 finalizada; O4 iniciada
+
+### Em Andamento
+- 🔄 Lição O4 — Segurança e LGPD:
+  - Política de privacidade
+  - Consentimento configurado
 
 ### Adicionado
 - Estrutura completa do repositório (docs/, prompts/, course/, src/, assets/)

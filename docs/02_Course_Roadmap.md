@@ -203,9 +203,9 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ---
 
-### 🔄 Lição O3 — Infraestrutura Básica
-**Status**: 🔄 Em andamento  
-**Data de início**: 2025-01-28
+### ✅ Lição O3 — Infraestrutura Básica
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2025-01-28
 
 **Entregáveis**:
 - [x] Guia completo de configuração (10 etapas)
@@ -213,14 +213,16 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 - [x] Script SQL completo para Supabase (8 tabelas)
 - [x] Estrutura de pastas documentada
 - [x] Código base (clientes Supabase, Stripe, Resend)
-- [x] Página Home básica
+- [x] Página Home básica (Etapa 9)
 - [x] Instruções de deploy na Vercel
-- [ ] **Ação pendente**: Você executar o setup no seu computador
+- [x] Estrutura base do projeto executada (Etapa 8)
+- [x] Webhook Stripe testado
 
 ---
 
-### ⏳ Lição O4 — Segurança e LGPD
-**Status**: Pendente
+### 🔄 Lição O4 — Segurança e LGPD
+**Status**: 🔄 Em andamento  
+**Data de início**: 2025-01-28
 
 **Entregáveis**:
 - [ ] Política de privacidade
@@ -272,9 +274,9 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ## 🎯 Status Geral
 
-**Fase atual**: C — Conversão sem Atrito  
-**Lição atual**: C1 — Wireframes / Layout  
-**Progresso**: 6/17 lições concluídas (35.3%)
+**Fase atual**: O — Operação & Infraestrutura  
+**Lição atual**: O4 — Segurança e LGPD  
+**Progresso**: 12/17 lições concluídas (70.6%)
 
 ---
 

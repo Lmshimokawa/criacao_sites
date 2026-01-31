@@ -7,7 +7,7 @@
 ## 📍 Fase Atual
 
 **Fase**: O — Operação & Infraestrutura  
-**Lição**: O3 — Infraestrutura Básica  
+**Lição**: O4 — Segurança e LGPD  
 **Status**: 🔄 Em andamento
 
 ---
@@ -51,29 +51,27 @@
 - [x] Prompt reutilizável criado (`strategy__definicao_oferta__v1.0.md`)
 - [x] Lição documentada em `course/A_Arquitetura_de_Valor/A3_Definicao_da_Oferta.md`
 
+### Lição O3 — Infraestrutura Básica
+- [x] Guia completo de configuração (10 etapas)
+- [x] Estrutura base do projeto executada (Etapa 8)
+- [x] Página Home básica + newsletter
+- [x] API routes (solicitação, checkout, webhooks Stripe, newsletter)
+- [x] Webhook Stripe testado
+- [x] Lição documentada em `course/O_Operacao_Infra/O3_Infraestrutura_Basica.md`
+
 ---
 
 ## ⏳ Pendente
 
-### Fase A — Arquitetura de Valor
-- Lição A2: Posicionamento e Categoria Mental
-- Lição A3: Definição da Oferta
-
-### Fase R — Ritual do Usuário
-- Lição R1: Jornada do Usuário
-- Lição R2: Funil de Conversão
-- Lição R3: Arquitetura de Informação
-
-### Fase C — Conversão sem Atrito
-- Lição C1: UX para Serviços Premium
-- Lição C2: Copywriting de Conversão
-- Lição C3: Canais de Conversão
-
 ### Fase O — Operação & Infraestrutura
-- Lição O1: Como um Site Funciona
-- Lição O2: Stack Tecnológica ⚠️ **DECISÃO PENDENTE**
-- Lição O3: Infraestrutura Básica
-- Lição O4: Segurança e LGPD
+- Lição O4: Segurança e LGPD (em andamento)
+- Checkpoint O (após O4)
+
+### Fase S — Scale, SEO & Otimização Contínua
+- Lição S1: SEO Estratégico
+- Lição S2: Conteúdo de Autoridade
+- Lição S3: Métricas e Analytics
+- Lição S4: Otimização Contínua
 
 ### Fase S — Scale, SEO & Otimização Contínua
 - Lição S1: SEO Estratégico
@@ -86,12 +84,12 @@
 ## 📍 Status Atual
 
 - **Fase atual**: O — Operação & Infraestrutura
-- **Lição atual**: O3 — Infraestrutura Básica (Em andamento)
-- **Próxima lição**: O4 — Segurança e LGPD
+- **Lição atual**: O4 — Segurança e LGPD (Em andamento)
+- **Próxima lição**: Checkpoint O (após O4)
 
 ## 📊 Métricas do Projeto
 
-- **Lições concluídas**: 11/17 (Fase A + R + C completas, O1-O2 concluídas)
+- **Lições concluídas**: 12/17 (Fase A + R + C + O1–O3 completas)
 - **Prompts criados**: 9
 - **Checkpoints criados**: 3
 - **Decisões registradas**: 22
@@ -105,9 +103,11 @@
 2. ✅ Fase R — Ritual do Usuário concluída (CHECKPOINT criado)
 3. ✅ Fase C — Conversão sem Atrito concluída (CHECKPOINT criado)
 4. 🔄 Fase O — Operação & Infraestrutura (em andamento)
-   - Lição O1: Como um Site Funciona
-   - Lição O2: Escolha de Stack
-   - Lição O3: Implementação
+   - Lição O1: Como um Site Funciona ✅
+   - Lição O2: Stack Tecnológica ✅
+   - Lição O3: Infraestrutura Básica ✅
+   - Lição O4: Segurança e LGPD (atual)
+   - Checkpoint O (após O4)
 
 ---
 
@@ -126,4 +126,4 @@ Nenhum no momento.
 
 ---
 
-**Próxima atualização**: Após conclusão da Lição A2
+**Próxima atualização**: Após conclusão da Lição O4

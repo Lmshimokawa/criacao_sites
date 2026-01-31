@@ -128,19 +128,17 @@ npm install stripe @stripe/stripe-js
 # Email
 npm install resend @react-email/components
 
-# UI (shadcn/ui)
-npx shadcn-ui@latest init
+# UI (shadcn) - NOTA: pacote foi renomeado de shadcn-ui para shadcn
+npx shadcn@latest init
 
 # Utilitários
 npm install date-fns zod react-hook-form @hookform/resolvers
 ```
 
-**2.3. Configurar shadcn/ui**
+**2.3. Configurar shadcn**
 ```bash
-# Componentes base
-npx shadcn-ui@latest add button card input label textarea
-npx shadcn-ui@latest add dialog sheet toast
-npx shadcn-ui@latest add form select checkbox
+# Componentes base (pode adicionar todos de uma vez)
+npx shadcn@latest add button card input label textarea dialog sheet sonner form select checkbox
 ```
 
 **2.4. Testar localmente**
@@ -161,12 +159,26 @@ Acesse: http://localhost:3000
 - Senha do banco: Anote em lugar seguro!
 
 **3.2. Obter credenciais**
-No dashboard do Supabase:
-- Settings → API
-- Copie:
-  - `Project URL`
-  - `anon public` key
-  - `service_role` key (⚠️ secreta!)
+
+No dashboard do Supabase (versão atual):
+
+1. **Project URL**  
+   - Aba **Settings** (ícone engrenagem) → **API**  
+   - Ou use o diálogo **Connect** (botão "Connect" no projeto)  
+   - Copie o **Project URL**
+
+2. **Chaves de API (modelo atual)**  
+   - **Settings** → **API** → aba **API Keys** (não use "Legacy API Keys")  
+   - **Publishable key** (`sb_publishable_...`) — uso no **client** (browser, app). Pode expor.  
+   - **Secret key** (`sb_secret_...`) — uso **apenas no servidor** (API routes, webhooks). Nunca exponha.  
+   - Se não aparecer Publishable/Secret, clique em **Create new API Keys** e copie os valores.
+
+3. **Onde colar no projeto**  
+   - **Project URL** → `NEXT_PUBLIC_SUPABASE_URL`  
+   - **Publishable key** → `NEXT_PUBLIC_SUPABASE_ANON_KEY` (nome da variável segue o padrão do Supabase)  
+   - **Secret key** → `SUPABASE_SERVICE_ROLE_KEY`
+
+**Nota:** As chaves antigas (`anon` e `service_role`, em JWT) estão na aba **Legacy API Keys** e foram substituídas por Publishable e Secret. Use as novas quando possível.
 
 **3.3. Criar tabelas**
 
@@ -458,7 +470,7 @@ Experiência Pintura — R$ 280/pessoa
 - Copie: `re_...`
 
 **5.3. Configurar domínio (depois)**
-- Para enviar de `contato@verdebarro.com.br`
+- Para enviar de `verdebarro.ceramica@gmail.com`
 - Domains → Add domain
 - Configurar DNS
 
@@ -472,7 +484,7 @@ Experiência Pintura — R$ 280/pessoa
 
 **6.2. Criar evento**
 - Nome: "Chamada de apresentação Verde Barro"
-- Duração: 20 minutos
+- Duração: 15 minutos
 - Disponibilidade: Seus horários
 
 **6.3. Obter link/embed**
@@ -494,9 +506,12 @@ NEXT_PUBLIC_APP_NAME="Verde Barro Cerâmica"
 # ===========================================
 # SUPABASE
 # ===========================================
+# Project URL (Settings → API)
 NEXT_PUBLIC_SUPABASE_URL=https://xxxxxxxxxxxx.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
-SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+# Publishable key (Settings → API → API Keys) — client-side
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_...
+# Secret key (Settings → API → API Keys) — server-side apenas!
+SUPABASE_SERVICE_ROLE_KEY=sb_secret_...
 
 # ===========================================
 # STRIPE
@@ -789,7 +804,7 @@ Após infraestrutura básica funcionando:
 ### Segurança
 - **NUNCA** commite arquivos `.env` no Git
 - Use `NEXT_PUBLIC_` apenas para variáveis que podem ser públicas
-- `SUPABASE_SERVICE_ROLE_KEY` é **secreta** — só use no servidor
+- `SUPABASE_SERVICE_ROLE_KEY` (Secret key `sb_secret_...`) é **secreta** — só use no servidor; nunca no browser
 
 ### Performance
 - Vercel deploy automático a cada push no main
@@ -808,5 +823,6 @@ Após infraestrutura básica funcionando:
 
 ---
 
-**Status**: 🔄 Em andamento  
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2025-01-31  
 **Última atualização**: 2025-01-28
