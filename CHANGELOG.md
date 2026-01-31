@@ -145,8 +145,34 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
   - Checklist de infraestrutura (domínio, hospedagem, banco, pagamentos)
   - Estimativa de custos: R$ 7-60/mês (início)
 
+### Concluído
+- ✅ Lição O2 — Stack Tecnológica:
+  - 2 opções propostas: Simples (Next.js) vs Robusta (Astro)
+  - Decisão: Opção A com arquitetura híbrida
+  - **Notion**: CMS para peças, blog, depoimentos
+  - **Supabase**: Banco para checkout, pagamentos, grupos
+  - Stack: Next.js 14 + Tailwind + Stripe + Resend + Cal.com + Vercel
+  - DEC-019 registrada
+
+- ✅ Ajustes no fluxo e schema (O2):
+  - **DEC-020**: Fluxo de experiências alterado — agendamento ANTES do pagamento
+    - Cliente solicita → Você confirma → Link de pagamento gerado
+  - **DEC-021**: Schema revisado com 8 tabelas
+  - **DEC-022**: Gestão de cupons centralizada
+    - Tabela `cupons` para todos os tipos (peça, influenciadora, promocional)
+    - Tabela `cupons_uso` para rastreamento
+    - Cupom de peça autoral: 20% off, validade 2 meses
+    - Suporte a parcerias com influenciadoras
+
 ### Em Andamento
-- Lição O2 — Stack Tecnológica
+- 🔄 Lição O3 — Infraestrutura Básica:
+  - Guia completo de setup em 10 etapas
+  - Checklist de contas: GitHub, Vercel, Supabase, Stripe, Resend, Cal.com
+  - Script SQL pronto para criar 8 tabelas no Supabase
+  - Código base para clientes (Supabase, Stripe, Resend)
+  - Página Home básica em React/Next.js
+  - Instruções de deploy na Vercel
+  - **Pendente**: Execução prática do setup
 
 ### Adicionado
 - Estrutura completa do repositório (docs/, prompts/, course/, src/, assets/)

@@ -503,12 +503,140 @@ Cada decisão deve conter:
 
 ---
 
-## 📊 Estatísticas
+### DEC-019: Stack Tecnológica — Arquitetura Híbrida
+**Data**: 2025-01-28  
+**Fase**: O — Operação & Infraestrutura (Lição O2)  
+**Decisão**: Adotar Opção A (Next.js + Vercel) com arquitetura híbrida de backend (Notion + Supabase)
 
-- **Total de decisões registradas**: 18
-- **Decisões pendentes**: 1
-- **Última atualização**: 2025-01-28
+**Stack escolhida**:
+- **Framework**: Next.js 14 (App Router) + TypeScript
+- **Estilização**: Tailwind CSS + shadcn/ui
+- **CMS (conteúdo)**: Notion API
+- **Banco (operações)**: Supabase (PostgreSQL)
+- **Pagamentos**: Stripe
+- **Email**: Resend
+- **Agendamento**: Cal.com
+- **Hospedagem**: Vercel
+
+**Arquitetura híbrida**:
+- **Notion**: Catálogo de peças, blog, depoimentos, FAQ (conteúdo que já é gerenciado lá)
+- **Supabase**: Pedidos, checkout compartilhável, pagamentos, newsletter (operações críticas)
+- **Sync opcional**: Webhook Stripe → Supabase → Notion (para controle interno)
+
+**Justificativa**: 
+- Usuário já usa Notion para gestão do negócio
+- Notion API tem limitações para checkout (rate limits, latência)
+- Supabase garante performance para operações críticas
+- Melhor dos dois mundos: familiaridade + robustez
+
+**Impacto**: 
+- Duas fontes de dados (Notion + Supabase)
+- Código para integrar ambos
+- Possibilidade de sincronizar vendas para Notion
+
+**Riscos/Trade-offs**: 
+- Risco: Complexidade de duas integrações
+- Mitigação: Separação clara de responsabilidades
+- Trade-off: Notion para conteúdo, Supabase para operações
 
 ---
 
-**Próxima decisão esperada**: Stack tecnológica (Lição O2)
+### DEC-020: Fluxo de Experiências — Agendamento antes do Pagamento
+**Data**: 2025-01-28  
+**Fase**: O — Operação & Infraestrutura (Lição O2 - ajuste)  
+**Decisão**: Cliente primeiro agenda e solicita, você confirma, depois gera link de pagamento
+
+**Fluxo anterior** (descartado):
+1. Cliente escolhe experiência
+2. Cliente paga direto no checkout
+3. Depois agenda
+
+**Fluxo novo** (aprovado):
+1. Cliente preenche formulário de solicitação:
+   - Experiência desejada
+   - Data desejada (baseada em agenda disponível)
+   - Número de participantes
+   - Endereço do workshop
+   - Tipo de pagamento (individual ou compartilhado)
+   - Dados de contato
+2. Mensagem: "Entraremos em contato para confirmar"
+3. Você analisa e confirma (ou recusa se fora de área)
+4. Sistema gera link de pagamento
+5. Email para cliente com link
+6. Cliente paga pelo link
+
+**Justificativa**: 
+- Negócio de experiências premium requer relacionamento antes do pagamento
+- Permite verificar disponibilidade real
+- Permite validar se atende a região
+- Evita cancelamentos/reembolsos
+- Cria conexão mais humanizada com cliente
+
+**Impacto no banco de dados**:
+- Nova tabela: `solicitacoes_experiencias` (pré-pagamento)
+- Tabela `pedidos_experiencias` só recebe após pagamento confirmado
+- Fluxo mais longo mas mais controlado
+
+**Impacto na UX**:
+- Formulário de solicitação ao invés de checkout direto
+- Mensagem de "aguarde confirmação"
+- Email com link de pagamento após confirmação
+
+---
+
+### DEC-021: Schema do Banco — Tabelas Essenciais
+**Data**: 2025-01-28  
+**Fase**: O — Operação & Infraestrutura (Lição O2 - ajuste)  
+**Decisão**: Definir 6 tabelas essenciais no Supabase
+
+**Tabelas**:
+1. `solicitacoes_experiencias` — Agendamentos pré-pagamento
+2. `pedidos_experiencias` — Experiências pagas e confirmadas
+3. `pedidos_pecas` — Compras de peças autorais
+4. `grupos` — Links de checkout compartilhável
+5. `grupo_participantes` — Participantes de cada grupo
+6. `newsletter` — Inscritos na newsletter
+
+**Justificativa**: 
+- Separação clara entre solicitação (pré) e pedido (pós pagamento)
+- Tabela específica para peças (faltava)
+- Newsletter mantida no Supabase para simplicidade
+
+---
+
+### DEC-022: Gestão de Cupons — Tabela Centralizada
+**Data**: 2025-01-28  
+**Fase**: O — Operação & Infraestrutura (Lição O2 - ajuste)  
+**Decisão**: Criar tabela dedicada `cupons` + `cupons_uso` para gestão centralizada
+
+**Justificativa**: 
+- Parcerias com influenciadoras planejadas para próximos 6 meses
+- Cupom automático de peça precisa de validade de 2 meses
+- Estrutura escalável para campanhas sazonais futuras
+
+**Tipos de cupons suportados**:
+| Tipo | Origem | Exemplo |
+|------|--------|---------|
+| `peca_autoral` | Automático (compra peça) | PECA-A1B2C3 |
+| `influenciadora` | Manual (parceria) | MARIA15 |
+| `promocional` | Manual (campanha) | MAES2025 |
+| `indicacao` | Automático (futuro) | REF-JOANA |
+
+**Regra do cupom de peça autoral**:
+- Desconto: 20%
+- Aplica em: Experiências apenas
+- Validade: **2 meses** a partir da compra
+- Uso: 1 vez
+
+**Impacto**:
+- Removido campos `cupom_codigo` e `cupom_usado` de `pedidos_pecas`
+- Adicionada tabela `cupons` (gestão)
+- Adicionada tabela `cupons_uso` (histórico/rastreamento)
+
+---
+
+## 📊 Estatísticas
+
+- **Total de decisões registradas**: 22
+- **Decisões pendentes**: 0
+- **Última atualização**: 2025-01-28

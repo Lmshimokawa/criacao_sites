@@ -7,7 +7,7 @@
 ## 📍 Fase Atual
 
 **Fase**: O — Operação & Infraestrutura  
-**Lição**: O2 — Stack Tecnológica  
+**Lição**: O3 — Infraestrutura Básica  
 **Status**: 🔄 Em andamento
 
 ---
@@ -83,12 +83,18 @@
 
 ---
 
+## 📍 Status Atual
+
+- **Fase atual**: O — Operação & Infraestrutura
+- **Lição atual**: O3 — Infraestrutura Básica (Em andamento)
+- **Próxima lição**: O4 — Segurança e LGPD
+
 ## 📊 Métricas do Projeto
 
-- **Lições concluídas**: 10/17 (Fase A + R + C completas, O1 concluída)
+- **Lições concluídas**: 11/17 (Fase A + R + C completas, O1-O2 concluídas)
 - **Prompts criados**: 9
 - **Checkpoints criados**: 3
-- **Decisões registradas**: 18
+- **Decisões registradas**: 22
 - **Auditorias realizadas**: 4
 
 ---

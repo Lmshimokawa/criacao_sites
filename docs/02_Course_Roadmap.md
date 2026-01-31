@@ -189,21 +189,33 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ---
 
-### 🔄 Lição O2 — Stack Tecnológica
-**Status**: Em andamento
+### ✅ Lição O2 — Stack Tecnológica
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2025-01-28
 
 **Entregáveis**:
-- [ ] Stack escolhida (2 opções propostas + decisão)
-- [ ] Prompt reutilizável: `infra-deploy__stack_tecnologica__v1.0.md`
+- [x] 2 opções de stack propostas (Simples vs Robusta)
+- [x] Comparação detalhada
+- [x] Decisão: Opção A com arquitetura híbrida (Notion + Supabase)
+- [x] Stack final documentada
+- [x] Schema do banco de dados (Supabase)
+- [x] Estrutura de pastas definida
 
 ---
 
-### ⏳ Lição O3 — Infraestrutura Básica
-**Status**: Pendente
+### 🔄 Lição O3 — Infraestrutura Básica
+**Status**: 🔄 Em andamento  
+**Data de início**: 2025-01-28
 
 **Entregáveis**:
-- [ ] Ambiente configurado
-- [ ] Deploy funcional
+- [x] Guia completo de configuração (10 etapas)
+- [x] Checklist de contas necessárias
+- [x] Script SQL completo para Supabase (8 tabelas)
+- [x] Estrutura de pastas documentada
+- [x] Código base (clientes Supabase, Stripe, Resend)
+- [x] Página Home básica
+- [x] Instruções de deploy na Vercel
+- [ ] **Ação pendente**: Você executar o setup no seu computador
 
 ---
 
