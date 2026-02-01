@@ -220,15 +220,17 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ---
 
-### 🔄 Lição O4 — Segurança e LGPD
-**Status**: 🔄 Em andamento  
-**Data de início**: 2025-01-28
+### ✅ Lição O4 — Segurança e LGPD
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2025-01-28
 
 **Entregáveis**:
-- [ ] Política de privacidade
-- [ ] Consentimento configurado
+- [x] Política de privacidade (publicada em `/legal/privacidade`)
+- [x] Link no footer
+- [x] Consentimento no formulário de newsletter (checkbox obrigatório + API)
+- [x] Coluna `aceite_privacidade` no schema e migração documentada
 
-**Checkpoint O**: `course/O_Operacao_Infra/CHECKPOINT.md`
+**Checkpoint O**: `course/O_Operacao_Infra/CHECKPOINT.md` ✅ Criado
 
 ---
 
@@ -274,9 +276,9 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ## 🎯 Status Geral
 
-**Fase atual**: O — Operação & Infraestrutura  
-**Lição atual**: O4 — Segurança e LGPD  
-**Progresso**: 12/17 lições concluídas (70.6%)
+**Fase atual**: S — Scale, SEO & Otimização Contínua  
+**Lição atual**: S1 — SEO Estratégico  
+**Progresso**: 13/17 lições concluídas (76.5%) — Fase O concluída + Checkpoint O
 
 ---
 

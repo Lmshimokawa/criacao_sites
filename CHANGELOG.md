@@ -165,18 +165,21 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
     - Suporte a parcerias com influenciadoras
 
 ### Concluído
-- ✅ Lição O3 — Infraestrutura Básica:
-  - Guia completo de setup em 10 etapas
-  - Estrutura base do projeto executada (Etapa 8)
-  - Página Home básica + newsletter
-  - API routes (solicitação, checkout, webhooks Stripe, newsletter)
-  - Webhook Stripe testado
-  - O3 finalizada; O4 iniciada
+- ✅ Lição O3 — Infraestrutura Básica (finalizada)
+- ✅ Lição O4 — Segurança e LGPD:
+  - Política de privacidade publicada em `/legal/privacidade`
+  - Link “Política de privacidade” no footer
+  - Checkbox de consentimento no formulário de newsletter (obrigatório)
+  - API newsletter exige e persiste `aceite_privacidade`
+  - Coluna `aceite_privacidade` no schema (O2/O3) e migração documentada
+- ✅ Checkpoint O — Fase Operação & Infraestrutura:
+  - Resumo das lições O1–O4
+  - Stack e fluxo de dados consolidados
+  - Sitemap atual e validações
+  - Documento: `course/O_Operacao_Infra/CHECKPOINT.md`
 
 ### Em Andamento
-- 🔄 Lição O4 — Segurança e LGPD:
-  - Política de privacidade
-  - Consentimento configurado
+- Próxima: Fase S — Scale, SEO & Otimização Contínua (S1)
 
 ### Adicionado
 - Estrutura completa do repositório (docs/, prompts/, course/, src/, assets/)

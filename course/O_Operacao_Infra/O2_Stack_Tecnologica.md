@@ -1204,6 +1204,7 @@ CREATE TABLE newsletter (
   email TEXT UNIQUE NOT NULL,
   nome TEXT,
   origem TEXT, -- 'home' | 'footer' | 'blog' | 'checkout'
+  aceite_privacidade BOOLEAN DEFAULT true, -- consentimento LGPD (O4)
   created_at TIMESTAMP DEFAULT NOW()
 );
 

@@ -1,8 +1,8 @@
 # Lição O4 — Segurança e LGPD
 
 > **Fase**: O — Operação & Infraestrutura  
-> **Status**: 🔄 Em andamento  
-> **Data de início**: 2025-01-28
+> **Status**: ✅ Concluída  
+> **Data de conclusão**: 2025-01-28
 
 ---
 
@@ -60,7 +60,7 @@ Use o bloco abaixo como **rascunho**. Ajuste nomes, contatos e prazos antes de p
 
 **POLÍTICA DE PRIVACIDADE — Verde Barro Cerâmica**
 
-**Última atualização:** [DATA]
+**Última atualização:** 2026-02-01
 
 **1. Quem somos**  
 Verde Barro Cerâmica (“nós”) oferece experiências de cerâmica (workshops) e peças autorais. Esta política explica como tratamos seus dados pessoais neste site.
@@ -131,11 +131,11 @@ Para dúvidas ou para exercer seus direitos: [e-mail ou formulário de contato].
 
 ### Checklist mínimo para Verde Barro
 
-- [ ] Página **Política de privacidade** publicada em `/legal/privacidade` (ou rota definida no site).  
-- [ ] Link para a política no **footer** do site.  
-- [ ] No formulário de **newsletter**: checkbox “Aceito receber e-mails da Verde Barro e li a [Política de privacidade]” (ou redação equivalente) e só inscrever se marcado.  
-- [ ] Se usar analytics ou cookies de terceiros: aviso/banner de cookies e opção de consentimento (aceitar/recusar).  
-- [ ] Na **solicitação de experiência** e no **checkout**: menção breve de que os dados serão usados para o pedido e conforme a Política de privacidade (link visível).
+- [x] Página **Política de privacidade** publicada em `/legal/privacidade`.  
+- [x] Link para a política no **footer** do site.  
+- [x] No formulário de **newsletter**: checkbox “Aceito receber e-mails da Verde Barro e li a [Política de privacidade]” e só inscrever se marcado.  
+- [ ] Se usar analytics ou cookies de terceiros: aviso/banner de cookies (opcional).  
+- [ ] Na **solicitação de experiência** e no **checkout**: menção breve + link à Política (quando implementar formulários).
 
 ---
 
@@ -143,24 +143,24 @@ Para dúvidas ou para exercer seus direitos: [e-mail ou formulário de contato].
 
 | Entregável | Status | Observação |
 |------------|--------|------------|
-| Política de privacidade (texto-base) | ✅ Incluída neste doc | Adaptar datas, contatos e revisar com advogado se necessário |
-| Página `/legal/privacidade` no site | [ ] Pendente | Criar rota e componente; colar texto final |
-| Link no footer para Política de privacidade | [ ] Pendente | Atualizar `Footer` em `verde-barro-site` |
-| Checkbox de consentimento no formulário de newsletter | [ ] Pendente | Só inscrever se usuário aceitar; guardar consentimento (ex.: campo `aceite_privacidade` ou equivalente no Supabase) |
+| Política de privacidade (texto-base) | ✅ | Incluída neste doc e publicada em `/legal/privacidade` |
+| Página `/legal/privacidade` no site | ✅ | `verde-barro-site/src/app/(site)/legal/privacidade/page.tsx` |
+| Link no footer para Política de privacidade | ✅ | Footer atualizado |
+| Checkbox de consentimento no formulário de newsletter | ✅ | Checkbox obrigatório; API exige `aceite_privacidade: true`; campo `aceite_privacidade` no Supabase |
 | Banner de cookies (opcional) | [ ] Opcional | Implementar se usar analytics/cookies de terceiros |
 
 ---
 
-## 📌 Próximos passos
+## 📌 Migração Supabase (newsletter)
 
-1. Revisar e adaptar o texto da política (datas, contato, prazos).  
-2. Criar a página `/legal/privacidade` no projeto `verde-barro-site` e publicar o texto.  
-3. Adicionar link “Política de privacidade” no footer.  
-4. Incluir checkbox de consentimento no formulário de newsletter e persistir o consentimento (ex.: Supabase).  
-5. (Opcional) Implementar banner de cookies se houver cookies não essenciais.  
-6. Após concluir, marcar O4 como concluída e criar o **Checkpoint O**.
+Se o projeto já tinha a tabela `newsletter` sem a coluna de consentimento, execute no SQL Editor do Supabase:
+
+```sql
+ALTER TABLE newsletter ADD COLUMN IF NOT EXISTS aceite_privacidade BOOLEAN DEFAULT true;
+```
 
 ---
 
-**Status**: 🔄 Em andamento  
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2025-01-28  
 **Última atualização**: 2025-01-28

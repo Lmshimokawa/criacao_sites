@@ -348,6 +348,7 @@ CREATE TABLE newsletter (
   email TEXT UNIQUE NOT NULL,
   nome TEXT,
   origem TEXT,
+  aceite_privacidade BOOLEAN DEFAULT true,
   created_at TIMESTAMP DEFAULT NOW()
 );
 
