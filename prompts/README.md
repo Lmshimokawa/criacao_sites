@@ -61,13 +61,12 @@ Cada prompt deve seguir este formato:
 
 ## 📊 Status da Biblioteca
 
-- **Total de prompts**: 9
+- **Total de prompts**: 11
 - **Por categoria**:
   - strategy: 3 (`strategy__proposta_valor__v1.0.md`, `strategy__posicionamento__v1.0.md`, `strategy__definicao_oferta__v1.0.md`)
   - ux-ui: 5 (`ux-ui__jornada_usuario__v1.0.md`, `ux-ui__funil_conversao__v1.0.md`, `ux-ui__sitemap_mobile_first__v1.0.md`, `ux-ui__wireframes_mobile_first__v1.0.md`, `ux-ui__canais_conversao__v1.0.md`)
-  - copy: 1 (`copy__paginas_experiencias__v1.0.md`)
-  - copy: 0
-  - seo: 0
+  - copy: 2 (`copy__paginas_experiencias__v1.0.md`, `copy__conteudo_autoridade__v1.0.md`)
+  - seo: 1 (`seo__estrategia__v1.0.md`)
   - analytics: 0
   - infra-deploy: 0
 
@@ -91,4 +90,4 @@ Cada prompt deve seguir este formato:
 
 ---
 
-**Última atualização**: 2025-01-25
+**Última atualização**: 2026-02-01

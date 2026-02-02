@@ -236,21 +236,26 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ## 📍 FASE S — SCALE, SEO & OTIMIZAÇÃO CONTÍNUA
 
-### ⏳ Lição S1 — SEO Estratégico
-**Status**: Pendente
+### ✅ Lição S1 — SEO Estratégico
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2026-02-01
 
 **Entregáveis**:
-- [ ] Estrutura editorial
-- [ ] Prompt reutilizável: `seo__estrategia__v1.0.md`
+- [x] Estrutura editorial (páginas principais + blog SEO only)
+- [x] Palavras-chave e meta tags por página
+- [x] Prompt reutilizável: `seo__estrategia__v1.0.md`
+- [x] Implementação no site (meta tags por página, sitemap, robots)
 
 ---
 
-### ⏳ Lição S2 — Conteúdo de Autoridade
-**Status**: Pendente
+### 🔄 Lição S2 — Conteúdo de Autoridade
+**Status**: 🔄 Em andamento  
+**Data de início**: 2026-02-01
 
 **Entregáveis**:
 - [ ] Primeiros artigos publicados
-- [ ] Prompt reutilizável: `copy__conteudo_autoridade__v1.0.md`
+- [x] Lição documentada: `course/S_Scale_SEO_Otimizacao/S2_Conteudo_Autoridade.md`
+- [x] Prompt reutilizável: `copy__conteudo_autoridade__v1.0.md`
 
 ---
 
@@ -277,8 +282,8 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 ## 🎯 Status Geral
 
 **Fase atual**: S — Scale, SEO & Otimização Contínua  
-**Lição atual**: S1 — SEO Estratégico  
-**Progresso**: 13/17 lições concluídas (76.5%) — Fase O concluída + Checkpoint O
+**Lição atual**: S2 — Conteúdo de Autoridade (Em andamento)  
+**Progresso**: 14/17 lições concluídas (82%)
 
 ---
 

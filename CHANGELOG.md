@@ -9,6 +9,17 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
 ## [Unreleased]
 
+### Concluído
+- ✅ Lição S1 — SEO Estratégico (2026-02-01):
+  - Checklist de implementação marcado como concluído (meta tags, canonical, OG, sitemap, robots, H1 por página)
+  - Status da lição atualizado para Concluída em `course/S_Scale_SEO_Otimizacao/S1_SEO_Estrategico.md`
+- ✅ Lição S2 — Conteúdo de Autoridade (iniciada 2026-02-01):
+  - Documentação criada: `course/S_Scale_SEO_Otimizacao/S2_Conteudo_Autoridade.md`
+  - Conceitos: conteúdo de autoridade, pilares, papel do blog (SEO only)
+  - Temas dos primeiros artigos (6 temas da S1) com slugs sugeridos
+  - Critérios de qualidade e checklists (conteúdo e site)
+  - Prompt reutilizável: `prompts/copy/copy__conteudo_autoridade__v1.0.md`
+
 ### Modificado
 - **Lição A1 — Proposta de Valor** (revisão 2025-01-25):
   - Posicionamento 1-linha revisado: removido "premium" explícito, escolhida versão mais autêntica e poética (Opção D)
@@ -179,7 +190,12 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
   - Documento: `course/O_Operacao_Infra/CHECKPOINT.md`
 
 ### Em Andamento
-- Próxima: Fase S — Scale, SEO & Otimização Contínua (S1)
+- 🔄 Lição S1 — SEO Estratégico:
+  - Estrutura editorial (páginas principais + blog SEO only)
+  - Palavras-chave e meta tags por página (Home, Experiências, Peças, Contato, Blog)
+  - Prompt reutilizável: `seo__estrategia__v1.0.md`
+  - Documento: `course/S_Scale_SEO_Otimizacao/S1_SEO_Estrategico.md`
+  - Pendente: implementação no site (meta tags por página, sitemap, robots)
 
 ### Adicionado
 - Estrutura completa do repositório (docs/, prompts/, course/, src/, assets/)
