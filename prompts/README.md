@@ -67,7 +67,7 @@ Cada prompt deve seguir este formato:
   - ux-ui: 5 (`ux-ui__jornada_usuario__v1.0.md`, `ux-ui__funil_conversao__v1.0.md`, `ux-ui__sitemap_mobile_first__v1.0.md`, `ux-ui__wireframes_mobile_first__v1.0.md`, `ux-ui__canais_conversao__v1.0.md`)
   - copy: 2 (`copy__paginas_experiencias__v1.0.md`, `copy__conteudo_autoridade__v1.0.md`)
   - seo: 1 (`seo__estrategia__v1.0.md`)
-  - analytics: 0
+  - analytics: 1 (`analytics__setup__v1.0.md`)
   - infra-deploy: 0
 
 ---

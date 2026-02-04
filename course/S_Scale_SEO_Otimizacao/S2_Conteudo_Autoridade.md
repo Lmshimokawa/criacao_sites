@@ -1,8 +1,8 @@
 # Lição S2 — Conteúdo de Autoridade
 
 > **Fase**: S — Scale, SEO & Otimização Contínua  
-> **Status**: Em andamento  
-> **Data de início**: 2026-02-01
+> **Status**: ✅ Concluída  
+> **Data de conclusão**: 2026-02-04
 
 ---
 
@@ -74,29 +74,37 @@ Definir o **conteúdo de autoridade** do site Verde Barro: primeiros artigos do 
 
 ### Checklist de implementação (conteúdo)
 
-- [ ] Definir **ordem de publicação** dos primeiros artigos (sugestão: começar pelo "O que é um workshop de cerâmica?").
-- [ ] Escrever ou encomendar **copy** de cada artigo usando o prompt copy__conteudo_autoridade__v1.0.md.
-- [ ] Revisar **tom** e **resposta direta** (primeiro parágrafo) em cada texto.
-- [ ] Garantir **meta tags** (title, description) e **URL/slug** por post no site.
-- [ ] Incluir **blog** no sitemap e em **robots** (já previsto na S1); páginas de post com canonical.
+- [x] Definir **ordem de publicação** dos primeiros artigos: 1) O que é um workshop de cerâmica?, 2) Modelagem vs pintura, 3) Presentear com experiência, 4) Cerâmica em São Paulo: onde fazer?, 5) Quantas pessoas cabem?, 6) Quanto tempo dura? (conforme tabela de temas).
+- [x] Escrever **copy** dos 6 artigos (tom Verde Barro, resposta direta no primeiro parágrafo) e inserir no Notion via API — script `verde-barro-site/scripts/create-blog-posts.mjs`.
+- [x] Revisar **tom** e **resposta direta**: cada post abre com definição/resposta clara; H2 para seções; CTA suave no fechamento quando aplicável.
+- [x] **Meta tags** (title, description) e **URL/slug** por post: preenchidos na database (Titulo, Slug, Descricao); o site gera metadata dinâmica e canonical por slug.
+- [x] **Blog** no sitemap e em **robots** (S1); páginas de post com canonical (implementado em `/blog/[slug]`).
 
 ### Checklist de implementação (site)
 
-- [ ] Criar rota **/blog** (lista de posts) e **/blog/[slug]** (post individual) no verde-barro-site.
-- [ ] Fonte de conteúdo: Notion API (CMS) ou arquivos estáticos/MDX — conforme decisão na O2/O3.
-- [ ] Cada post: **metadata** (title, description, canonical, openGraph) dinâmica por slug.
-- [ ] Atualizar **sitemap** para incluir /blog e todos os slugs de posts quando existirem.
+- [x] Criar rota **/blog** (lista de posts) e **/blog/[slug]** (post individual) no verde-barro-site.
+- [x] Fonte de conteúdo: **Notion API (CMS)** — database "Blog Site Verde Barro" com propriedades: Titulo, Slug, Descricao, Publicado, Data Publicacao, Capa Post, Autor; corpo do post = blocos da página (cada linha da database é uma página).
+- [x] Cada post: **metadata** (title, description, canonical, openGraph, twitter) dinâmica por slug.
+- [x] **Sitemap** atualizado para incluir /blog e todos os slugs de posts (gerado dinamicamente).
+
+### Implementação Notion API (referência)
+
+- **Variáveis de ambiente:** `NOTION_API_KEY`, `NOTION_DATABASE_BLOG` (ID da database).
+- **SDK:** `@notionhq/client` (API 2025-09-03: usa `databases.retrieve` para obter `data_sources[0].id` e `dataSources.query` para listar/filtrar posts; criação de páginas com `parent.data_source_id`).
+- **Blocos renderizados:** parágrafo, heading_1/2/3, listas (bulleted, numbered), quote, code, image, divider; rich text com negrito, itálico, link, code.
+- **Imagens:** Notion (e S3) usadas com `unoptimized` ou `<img>`; capa do post e imagens no corpo exibidas diretamente do Notion.
+- **Revalidação:** 60 s (`revalidate = 60`) para lista e post.
+- **Script de criação de posts:** `verde-barro-site/scripts/create-blog-posts.mjs` — cria os 6 posts iniciais no Notion via API (executar com `node --env-file=.env.local scripts/create-blog-posts.mjs`).
 
 ---
 
 ## Próximos passos
 
-1. Usar o prompt **copy__conteudo_autoridade__v1.0.md** para gerar o copy do primeiro artigo ("O que é um workshop de cerâmica?").
-2. Implementar as rotas **/blog** e **/blog/[slug]** no site (ou documentar dependência ao CMS).
-3. Publicar o primeiro artigo e revisar meta tags e snippet.
-4. Avançar para **S3 — Métricas e Analytics** (painel e Search Console).
+1. Usar o prompt **copy__conteudo_autoridade__v1.0.md** para gerar o copy dos próximos artigos (temas da tabela acima).
+2. Publicar no Notion (marcar **Publicado** e preencher Slug, Data Publicacao, etc.); o site atualiza em até 1 minuto.
+3. Avançar para **S3 — Métricas e Analytics** (painel e Search Console).
 
 ---
 
-**Status**: Em andamento  
-**Última atualização**: 2026-02-01
+**Status**: ✅ Concluída  
+**Última atualização**: 2026-02-04

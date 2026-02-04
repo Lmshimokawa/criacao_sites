@@ -10,15 +10,13 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 ## [Unreleased]
 
 ### Concluído
-- ✅ Lição S1 — SEO Estratégico (2026-02-01):
-  - Checklist de implementação marcado como concluído (meta tags, canonical, OG, sitemap, robots, H1 por página)
-  - Status da lição atualizado para Concluída em `course/S_Scale_SEO_Otimizacao/S1_SEO_Estrategico.md`
-- ✅ Lição S2 — Conteúdo de Autoridade (iniciada 2026-02-01):
-  - Documentação criada: `course/S_Scale_SEO_Otimizacao/S2_Conteudo_Autoridade.md`
-  - Conceitos: conteúdo de autoridade, pilares, papel do blog (SEO only)
-  - Temas dos primeiros artigos (6 temas da S1) com slugs sugeridos
-  - Critérios de qualidade e checklists (conteúdo e site)
-  - Prompt reutilizável: `prompts/copy/copy__conteudo_autoridade__v1.0.md`
+- ✅ Lição S2 — Conteúdo de Autoridade (2026-02-04):
+  - Status da lição atualizado para Concluída em `course/S_Scale_SEO_Otimizacao/S2_Conteudo_Autoridade.md`
+  - Checklist de implementação (conteúdo) marcado como concluído: ordem de publicação, copy dos 6 artigos, meta tags/slug, sitemap/canonical
+  - Blog no footer do site; 6 posts criados no Notion via API (script `scripts/create-blog-posts.mjs`)
+- ✅ Lição S3 — Métricas e Analytics (iniciada 2026-02-04):
+  - Documentação criada: `course/S_Scale_SEO_Otimizacao/S3_Metricas_Analytics.md` (Search Console, analytics de tráfego, painel de indicadores, LGPD/cookies)
+  - Prompt reutilizável: `prompts/analytics/analytics__setup__v1.0.md`
 
 ### Modificado
 - **Lição A1 — Proposta de Valor** (revisão 2025-01-25):

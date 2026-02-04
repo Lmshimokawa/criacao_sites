@@ -248,23 +248,25 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ---
 
-### 🔄 Lição S2 — Conteúdo de Autoridade
-**Status**: 🔄 Em andamento  
-**Data de início**: 2026-02-01
+### ✅ Lição S2 — Conteúdo de Autoridade
+**Status**: ✅ Concluída  
+**Data de conclusão**: 2026-02-04
 
 **Entregáveis**:
-- [ ] Primeiros artigos publicados
+- [x] Primeiros artigos publicados (6 posts via Notion API; blog no site e no footer)
 - [x] Lição documentada: `course/S_Scale_SEO_Otimizacao/S2_Conteudo_Autoridade.md`
 - [x] Prompt reutilizável: `copy__conteudo_autoridade__v1.0.md`
 
 ---
 
-### ⏳ Lição S3 — Métricas e Analytics
-**Status**: Pendente
+### 🔄 Lição S3 — Métricas e Analytics
+**Status**: 🔄 Em andamento  
+**Data de início**: 2026-02-04
 
 **Entregáveis**:
-- [ ] Painel de métricas
-- [ ] Prompt reutilizável: `analytics__setup__v1.0.md`
+- [ ] Painel de métricas (Search Console + analytics de tráfego)
+- [x] Lição documentada: `course/S_Scale_SEO_Otimizacao/S3_Metricas_Analytics.md`
+- [x] Prompt reutilizável: `analytics__setup__v1.0.md`
 
 ---
 
@@ -282,8 +284,8 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 ## 🎯 Status Geral
 
 **Fase atual**: S — Scale, SEO & Otimização Contínua  
-**Lição atual**: S2 — Conteúdo de Autoridade (Em andamento)  
-**Progresso**: 14/17 lições concluídas (82%)
+**Lição atual**: S3 — Métricas e Analytics (Em andamento)  
+**Progresso**: 15/17 lições concluídas (88%)
 
 ---
 
