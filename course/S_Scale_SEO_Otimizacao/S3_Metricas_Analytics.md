@@ -1,7 +1,7 @@
 # Lição S3 — Métricas e Analytics
 
 > **Fase**: S — Scale, SEO & Otimização Contínua  
-> **Status**: 🔄 Em andamento  
+> **Status**: ✅ Finalizada (pendência: sitemap no GSC — registrada abaixo)  
 > **Data de início**: 2026-02-04
 
 ---
@@ -21,11 +21,13 @@ Configurar o **painel de métricas** do site Verde Barro: conectar Google Search
 
 ### Três pilares para um site de negócio
 
-| Pilar | O que responde | Ferramenta típica |
-|-------|----------------|-------------------|
-| **SEO** | Como o site aparece no Google (busca orgânica)? Quais páginas ranqueiam? | Google Search Console |
-| **Tráfego e comportamento** | Quantas visitas? De onde? Quais páginas? | Google Analytics 4 ou Vercel Analytics / Plausible |
-| **Conversão** | Quantos preencheram formulário, assinaram newsletter, iniciaram checkout? | Eventos no analytics + Supabase (dados transacionais) |
+
+| Pilar                       | O que responde                                                            | Ferramenta típica                                     |
+| --------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **SEO**                     | Como o site aparece no Google (busca orgânica)? Quais páginas ranqueiam?  | Google Search Console                                 |
+| **Tráfego e comportamento** | Quantas visitas? De onde? Quais páginas?                                  | Google Analytics 4 ou Vercel Analytics / Plausible    |
+| **Conversão**               | Quantos preencheram formulário, assinaram newsletter, iniciaram checkout? | Eventos no analytics + Supabase (dados transacionais) |
+
 
 ### O que NÃO priorizar no início
 
@@ -62,16 +64,18 @@ Definir um “painel” = lista de indicadores que você olha com frequência (e
 
 **Sugestão para Verde Barro:**
 
-| Métrica | Onde ver | Frequência |
-|---------|----------|------------|
-| Impressões e cliques (busca) | Search Console | Mensal |
-| Top 5 páginas por cliques | Search Console | Mensal |
-| Top consultas (keywords) | Search Console | Mensal |
-| Erros de indexação | Search Console > Cobertura | Mensal |
-| Core Web Vitals (mobile/desktop) | Search Console > Experiência | Mensal |
-| Visitantes / pageviews | Vercel Analytics ou GA4 | Mensal |
-| Inscrições newsletter | Supabase (tabela `newsletter`) ou email Resend | Mensal |
-| Solicitações de experiência | Supabase (`solicitacoes_experiencias`) | Mensal |
+
+| Métrica                          | Onde ver                                       | Frequência |
+| -------------------------------- | ---------------------------------------------- | ---------- |
+| Impressões e cliques (busca)     | Search Console                                 | Mensal     |
+| Top 5 páginas por cliques        | Search Console                                 | Mensal     |
+| Top consultas (keywords)         | Search Console                                 | Mensal     |
+| Erros de indexação               | Search Console > Cobertura                     | Mensal     |
+| Core Web Vitals (mobile/desktop) | Search Console > Experiência                   | Mensal     |
+| Visitantes / pageviews           | Vercel Analytics ou GA4                        | Mensal     |
+| Inscrições newsletter            | Supabase (tabela `newsletter`) ou email Resend | Mensal     |
+| Solicitações de experiência      | Supabase (`solicitacoes_experiencias`)         | Mensal     |
+
 
 **Conversões:** hoje o “fundo do funil” são: newsletter, solicitação de experiência, (futuro) checkout. Contar registros no Supabase já é um painel mínimo; depois dá para enviar eventos para GA4 (ex.: “newsletter_signup”) para ver no mesmo lugar.
 
@@ -84,23 +88,33 @@ Definir um “painel” = lista de indicadores que você olha com frequência (e
 
 ## Checklist de implementação
 
-- [ ] **Verificar site no Google Search Console** (propriedade + sitemap).
-- [ ] **Decidir analytics:** Vercel Analytics e/ou GA4 (ou Plausible).
-- [ ] **Implementar** o script/tag no site (ex.: Vercel Analytics no projeto Vercel; GA4 em `layout.tsx` ou via `@next/third-parties`).
-- [ ] **Documentar o “painel”** (lista de métricas + onde ver) em um doc interno ou na lição.
-- [ ] (Opcional) **Eventos de conversão** (newsletter, solicitação) no GA4, se usar GA4.
-- [ ] (Se GA4/cookies) **Revisar política de privacidade e banner** (O4).
+- [x] **Verificar site no Google Search Console** (propriedade) — adicionar recurso (prefixo de URL), verificação por “tag HTML” (`NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` no projeto + deploy), clicar em “Verificar”.
+- [ ] **Enviar sitemap no Google Search Console** — **pendência registrada:** o sitemap enviado retornou “Couldn’t fetch”. Corrigir: aplicar alterações em `sitemap.ts` (try/catch na Notion, baseUrl sem barra final) e `robots.ts` (baseUrl normalizada); redeploy; em GSC > Sitemaps, reenviar `sitemap.xml` e conferir status “Sucesso”.
+- [x] **Decidir analytics:** Vercel Analytics (recomendado para Verde Barro; sem cookies, sem banner).
+- [x] **Implementar:** Vercel Analytics instalado (`@vercel/analytics`) e componente `<Analytics />` no `layout.tsx` do `verde-barro-site`. Ativar “Web Analytics” no dashboard do projeto na Vercel para os dados aparecerem.
+- [x] **Documentar o painel:** tabela “Sugestão para Verde Barro” nesta lição (acima) = painel mínimo; métricas, onde ver e frequência.
+- (Opcional) **Eventos de conversão** (newsletter, solicitação) no GA4, se migrar para GA4 depois.
+- (Se GA4/cookies) **Revisar política de privacidade e banner** (O4). Com só Vercel Analytics, não é obrigatório banner (conforme documentação Vercel); política de privacidade já menciona analytics.
 
 ---
+
+## Implementação no site (feito)
+
+- **Verificação Google Search Console:** o `layout.tsx` do site lê a variável de ambiente `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` e, se definida, insere a meta tag `google-site-verification` no `<head>`. Basta obter o código no Search Console e definir a variável no ambiente (ex.: Vercel) e fazer deploy.
+- **Vercel Analytics:** integrado em `verde-barro-site`; ativar em Vercel → Project → Settings → Analytics (Web Analytics).
+
+## Pendências (registradas)
+
+- **Sitemap no GSC:** o sitemap enviado retornou “Couldn’t fetch”. Resolver aplicando as alterações em `verde-barro-site/src/app/sitemap.ts` (resiliência à falha da Notion API + baseUrl sem barra final) e `robots.ts` (baseUrl normalizada); fazer redeploy; em Search Console > Sitemaps, reenviar `sitemap.xml`.
 
 ## Próximos passos
 
-1. Verificar o site no Search Console e enviar o sitemap.
-2. Ativar Vercel Analytics (ou configurar GA4) conforme decisão.
+1. **Pendência:** Resolver sitemap (acima) quando for conveniente.
+2. **Ação do usuário:** No dashboard Vercel, ativar Web Analytics do projeto (se ainda não ativou).
 3. Definir data para primeira revisão mensal (ex.: 30 dias após go-live).
-4. Avançar para **S4 — Otimização Contínua** (rotina mensal e prompt de evolução).
+4. **S3 finalizada.** Seguir para **S4 — Otimização Contínua**.
 
 ---
 
-**Status**: 🔄 Em andamento  
-**Última atualização**: 2026-02-04
+**Status**: ✅ Finalizada  
+**Última atualização**: 2026-01-28
