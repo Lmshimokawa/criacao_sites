@@ -281,11 +281,28 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ---
 
+## 🚀 ETAPA OBRIGATÓRIA: IMPLEMENTAÇÃO DE SITE COMPLETO E GO-LIVE
+
+**Objetivo:** Ao final do curso, o site deve estar **completo em todos os sentidos**, em produção e operando o negócio, sem necessidade de desenvolvimento adicional (apenas melhorias incrementais).
+
+**Checklist (ver `planejamento_curso_completo_de_criacao_de_sites_de_negocios.md`):**
+- [ ] Todas as páginas do sitemap implementadas (conteúdo e design finais)
+- [ ] Canais de conversão integrados (WhatsApp, agendamento, checkout experiências e peças, formulário solicitação)
+- [ ] Branding aplicado (paleta, tipografia, identidade)
+- [ ] Conteúdo refinado e revisado
+- [ ] UX validada (fluxos, estados, feedbacks, mobile-first)
+- [ ] SEO e sitemap funcional
+- [ ] Métricas ativas (GSC, analytics, dados transacionais)
+- [ ] Site em produção (deploy estável, env documentadas)
+
+**Ordem sugerida:** S3/S4 são executados **depois** do go-live (métricas e rotina mensal fazem sentido com site no ar).
+
+---
+
 ## 🎯 Status Geral
 
-**Fase atual**: S — Scale, SEO & Otimização Contínua  
-**Lição atual**: S3 — Métricas e Analytics (Em andamento)  
-**Progresso**: 15/17 lições concluídas (88%)
+**Fase atual**: Etapa go-live (site completo) + S — Scale, SEO & Otimização  
+**Progresso**: Lições A–S documentadas; **site completo e go-live** é o critério de conclusão do curso
 
 ---
 

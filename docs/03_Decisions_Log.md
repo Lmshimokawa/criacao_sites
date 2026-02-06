@@ -635,8 +635,30 @@ Cada decisão deve conter:
 
 ---
 
+### DEC-023: Reestruturação do framework — Site completo e go-live obrigatório
+**Data**: 2026-01-28  
+**Fase**: Estrutura do curso / Framework ARCOS™  
+**Decisão**: Incluir etapa obrigatória "Implementação de site completo e go-live"; critério de conclusão do curso = site 100% completo em produção, sem desenvolvimento adicional (apenas melhorias incrementais pós feedback).
+
+**Contexto**:
+- O curso foi concluído em documento (lições A–S), mas o site piloto (Verde Barro) permaneceu com placeholders, integrações pela metade e branding genérico.
+- O framework não exigia, ao final, um site completo e em produção.
+
+**Mudanças**:
+- **Planejamento** (`planejamento_curso_completo_de_criacao_de_sites_de_negocios.md`): Nova seção "ETAPA OBRIGATÓRIA: IMPLEMENTAÇÃO DE SITE COMPLETO E GO-LIVE" com checklist verificável (páginas, canais de conversão, branding, conteúdo, UX, SEO, métricas, produção).
+- **Checklist final do framework**: Incluído item "Site completo em produção"; "Conversão testada" e "Conteúdo publicado" refinados para refletir fluxos reais e conteúdo aplicado.
+- **docs/01_ARCOS_Framework.md**: Checklist final alinhado ao planejamento.
+- **docs/02_Course_Roadmap.md**: Seção da etapa go-live com checklist; status geral atualizado.
+- **S3 e S4**: Adaptados para execução **após** go-live (métricas e rotina mensal fazem sentido com site no ar); adicionados "Quando executar" e "Passos práticos".
+
+**Justificativa**: Garantir que o usuário do curso termine com um ativo real (site operando o negócio), não apenas com documentação e especificações.
+
+**Impacto**: Todas as entregas futuras do curso devem considerar o checklist go-live; S3/S4 passam a ser "pós lançamento".
+
+---
+
 ## 📊 Estatísticas
 
-- **Total de decisões registradas**: 22
+- **Total de decisões registradas**: 23
 - **Decisões pendentes**: 0
-- **Última atualização**: 2025-01-28
+- **Última atualização**: 2026-01-28

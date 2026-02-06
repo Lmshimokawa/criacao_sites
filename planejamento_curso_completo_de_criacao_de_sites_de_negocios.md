@@ -302,6 +302,27 @@ Transformar o site em um **ativo vivo**, que aprende e melhora com o tempo.
 
 ---
 
+# ETAPA OBRIGATÓRIA: IMPLEMENTAÇÃO DE SITE COMPLETO E GO-LIVE
+
+Ao final do curso, o critério de conclusão é **obrigatório**: o usuário termina com o **site final completo em todos os sentidos**, 100% utilizável, em produção e já operando o negócio, **sem necessidade de desenvolvimento adicional** (apenas melhorias incrementais com base em feedback de clientes e métricas).
+
+Esta etapa é verificável por uma visão holística de um especialista full stack em sites de negócios.
+
+## Checklist de site completo e go-live
+
+- [ ] **Todas as páginas do sitemap implementadas** com conteúdo e design finais (nada em "Em breve" ou placeholder genérico).
+- [ ] **Todos os canais de conversão integrados (front + back):** WhatsApp (número via env), agendamento (ex.: Cal.com), checkout para experiências (individual e compartilhável quando aplicável), checkout para peças, formulário de solicitação → API → banco.
+- [ ] **Branding aplicado:** paleta, tipografia e identidade visual alinhadas à marca; uso consistente em layout e componentes.
+- [ ] **Conteúdo refinado e revisado:** copy das lições (ex.: C2) aplicado em cada página; tom único e profissional.
+- [ ] **UX validada:** fluxos fechados (solicitação, checkout, agendamento); estados de loading, erro e sucesso; feedbacks claros; tratamento de erros; mobile-first e acessível.
+- [ ] **SEO e sitemap:** meta tags por página, sitemap.xml funcional (sem "Couldn't fetch"), robots.txt; Google Search Console e analytics configuráveis.
+- [ ] **Métricas ativas:** Search Console verificado (ou configurável), analytics de tráfego ativo (ex.: Vercel Analytics), dados transacionais (Supabase) acessíveis.
+- [ ] **Site em produção:** deploy estável (ex.: Vercel), variáveis de ambiente documentadas; site pronto para o negócio rodar.
+
+Sem cumprir este checklist, o curso não está concluído.
+
+---
+
 # PROMPTS E BIBLIOTECA DE VIBE CODING
 
 ## Estrutura da Biblioteca
@@ -326,10 +347,11 @@ Cada prompt deve conter:
 - [ ] Jornada mapeada
 - [ ] Funil funcional
 - [ ] Stack consciente
-- [ ] Conversão testada
-- [ ] Conteúdo publicado
-- [ ] Métricas ativas
-- [ ] Rotina de otimização definida
+- [ ] **Site completo em produção** (todas as páginas, conversão, branding, UX, SEO; ver checklist "Implementação de site completo e go-live")
+- [ ] Conversão testada (fluxos reais: solicitação, checkout, agendamento, WhatsApp)
+- [ ] Conteúdo publicado e refinado
+- [ ] Métricas ativas (Search Console, analytics, dados transacionais)
+- [ ] Rotina de otimização definida (após go-live; ver S4)
 
 ---
 

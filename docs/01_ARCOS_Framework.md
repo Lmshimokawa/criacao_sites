@@ -124,10 +124,11 @@ Prompts e templates são versionados para uso em outros projetos.
 - [ ] Jornada mapeada
 - [ ] Funil funcional
 - [ ] Stack consciente
-- [ ] Conversão testada
-- [ ] Conteúdo publicado
+- [ ] **Site completo em produção** (ver etapa obrigatória em `planejamento_curso_completo_de_criacao_de_sites_de_negocios.md`: todas as páginas, conversão, branding, UX, SEO)
+- [ ] Conversão testada (fluxos reais)
+- [ ] Conteúdo publicado e refinado
 - [ ] Métricas ativas
-- [ ] Rotina de otimização definida
+- [ ] Rotina de otimização definida (S4, após go-live)
 
 ---
 

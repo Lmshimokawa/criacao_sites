@@ -2,13 +2,15 @@
 
 > **Fase**: S — Scale, SEO & Otimização Contínua  
 > **Status**: 🔄 Em andamento  
-> **Data de início**: 2026-01-28
+> **Data de início**: 2026-02-05
 
 ---
 
 ## Objetivo da Lição
 
-Estabelecer uma **rotina mensal de evolução** do site Verde Barro: usar as métricas (S3) para priorizar melhorias, aplicar ciclos de melhoria e, quando fizer sentido, testes guiados por dados — para que o site evolua de forma consciente e não fique parado após o lançamento.
+Estabelecer uma **rotina mensal de evolução** do site: usar as métricas (S3) para priorizar melhorias e aplicar ciclos de melhoria — para que o site evolua de forma consciente e não fique parado após o lançamento.
+
+**Quando executar:** **Após o site estar completo e em produção** (go-live). S3 e S4 só ganham sentido com tráfego e conversões reais; antes disso, o foco é concluir a etapa "Implementação de site completo e go-live".
 
 ---
 
@@ -88,10 +90,19 @@ Usar um prompt de **otimização** na biblioteca (ou criar um) que inclua:
 
 ---
 
+## Passos práticos (pós go-live)
+
+1. **Definir data fixa** para revisão (ex.: primeiro dia útil do mês).
+2. **Primeira revisão (30 dias após go-live):** Abrir [Search Console](https://search.google.com/search-console) → Desempenho e Cobertura; Vercel → Analytics; Supabase → tabelas `newsletter` e `solicitacoes_experiencias`. Preencher a tabela "Rotina mensal sugerida" (acima) com números reais.
+3. **Decidir 1–3 ações** com base nos dados (ex.: página com impressões e poucos cliques → melhorar title; poucas solicitações → revisar CTA da página Experiências).
+4. **Implementar** e anotar; na próxima revisão, conferir se as métricas evoluíram.
+5. **Repetir** todo mês. Opcional: quando houver tráfego e dúvida clara, considerar teste A/B (GA4 ou ferramenta dedicada).
+
 ## Próximos passos
 
-1. Agendar primeira revisão mensal.
-2. Ao final da fase S: conferir checklist final do framework (proposta de valor, funil, métricas ativas, rotina de otimização definida).
+1. Concluir etapa **Implementação de site completo e go-live** (checklist no planejamento).
+2. Agendar primeira revisão mensal (ex.: 30 dias após go-live).
+3. Conferir checklist final do framework (site completo em produção, métricas ativas, rotina definida).
 
 ---
 

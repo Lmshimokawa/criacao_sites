@@ -9,6 +9,13 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
 ## [Unreleased]
 
+### Adicionado (Reestruturação framework — 2026-01-28)
+- **Etapa obrigatória "Implementação de site completo e go-live"** em `planejamento_curso_completo_de_criacao_de_sites_de_negocios.md`: checklist verificável (páginas, conversão, branding, UX, SEO, métricas, produção). Curso só considerado concluído com site completo em operação.
+- **Checklist final do framework** atualizado: item "Site completo em produção"; conversão testada e conteúdo publicado refinados.
+- **docs/01_ARCOS_Framework.md** e **docs/02_Course_Roadmap.md**: checklist e seção go-live; status geral alinhado.
+- **S3 e S4** (`course/S_Scale_SEO_Otimizacao/`): "Quando executar" (após go-live); "Passos práticos" com links e ações concretas (GSC, Vercel Analytics, Supabase, primeira revisão).
+- **DEC-023** em `docs/03_Decisions_Log.md`: decisão de reestruturação registrada.
+
 ### Concluído
 - ✅ Lição S2 — Conteúdo de Autoridade (2026-02-04):
   - Status da lição atualizado para Concluída em `course/S_Scale_SEO_Otimizacao/S2_Conteudo_Autoridade.md`
