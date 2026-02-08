@@ -10,7 +10,7 @@
 
 Estabelecer uma **rotina mensal de evolução** do site: usar as métricas (S3) para priorizar melhorias e aplicar ciclos de melhoria — para que o site evolua de forma consciente e não fique parado após o lançamento.
 
-**Quando executar:** **Após o site estar completo e em produção** (go-live). S3 e S4 só ganham sentido com tráfego e conversões reais; antes disso, o foco é concluir a etapa "Implementação de site completo e go-live".
+**Quando executar:** **Após o site estar completo e em produção** (Fase I — Implementação de Site Completo e Go-Live concluída). S3 e S4 só ganham sentido com tráfego e conversões reais; antes disso, o foco é concluir a Fase I.
 
 ---
 

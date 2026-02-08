@@ -2,7 +2,7 @@
 
 > **Data**: 2025-01-29  
 > **Status**: ✅ Concluída  
-> **Próxima fase**: O — Operação & Infraestrutura
+> **Próxima fase**: O — Operação & Infraestrutura (após O: Fase I — Implementação de site completo; wireframes e copy desta fase são aplicados nas páginas na Fase I)
 
 ---
 

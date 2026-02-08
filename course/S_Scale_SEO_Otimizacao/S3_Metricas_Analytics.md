@@ -10,7 +10,7 @@
 
 Configurar o **painel de métricas** do site: conectar Google Search Console (SEO), ativar analytics de tráfego e definir o que acompanhar mensalmente para evoluir com base em dados reais.
 
-**Quando executar:** Depois que o site estiver **completo e em produção** (etapa "Implementação de site completo e go-live"). Com o site no ar, os dados passam a fazer sentido; antes disso, métricas são apenas configuração.
+**Quando executar:** Depois que o site estiver **completo e em produção** (Fase I — Implementação de Site Completo e Go-Live concluída). Com o site no ar, os dados passam a fazer sentido; antes disso, métricas são apenas configuração.
 
 ---
 

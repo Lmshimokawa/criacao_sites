@@ -447,10 +447,10 @@ Cada decisão deve conter:
 
 ---
 
-### DEC-017: Experiências para Grupos (2-8 pessoas) — Não 1:1
+### DEC-017: Experiências para Grupos Pequenos — Não 1:1
 **Data**: 2025-01-28  
 **Fase**: R — Ritual do Usuário (Lição R3 - ajuste)  
-**Decisão**: Experiências são exclusivamente para grupos de 2 a 8 pessoas. Não haverá experiência individual 1:1.
+**Decisão**: Experiências são pensadas para grupos pequenos (não turmas grandes). O número de participantes não é fixo no site: combina-se no contato (formulário/WhatsApp) para evitar fricção. Comunicação usa "pequenos grupos", não "2 a 8 pessoas". Não haverá oferta 1:1 como padrão.
 
 **Contexto**:
 - Experiência compartilhada é o core do valor (memórias juntos)
