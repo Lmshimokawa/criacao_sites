@@ -636,7 +636,7 @@ Cada decisão deve conter:
 ---
 
 ### DEC-023: Reestruturação do framework — Site completo e go-live obrigatório
-**Data**: 2026-01-28  
+**Data**: 2026-02-08  
 **Fase**: Estrutura do curso / Framework ARCOS™  
 **Decisão**: Incluir etapa obrigatória "Implementação de site completo e go-live"; critério de conclusão do curso = site 100% completo em produção, sem desenvolvimento adicional (apenas melhorias incrementais pós feedback).
 
@@ -657,8 +657,59 @@ Cada decisão deve conter:
 
 ---
 
+### DEC-024: Documento consolidado do site piloto + refino Verde Barro (PWAP, sitemap, form, header)
+**Data**: 2026-02-08  
+**Fase**: I — Implementação Site Go-Live / Otimização  
+**Decisão**: (1) Criar documento único **08_Site_Verde_Barro_Consolidado.md** como fonte única da verdade do site Verde Barro; (2) Refinar o site com referência Pottery with a Purpose, novo sitemap, formulário único de cotação, header dinâmico, novas páginas e estrutura de Home.
+
+**Contexto**:
+- O curso precisa de uma documentação que consolide direcionamento, conteúdo, definições, estratégia, estrutura, implementações e pendências do site em desenvolvimento, para não perder trilha de auditoria e para uso como contexto em otimizações futuras.
+- O site Verde Barro foi refinado com base em [Pottery with a Purpose](https://www.potterywithapurpose.com/), modelo de negócio próximo (workshops privados + corporativos).
+
+**Decisões de implementação**:
+- **Documento consolidado**: `docs/08_Site_Verde_Barro_Consolidado.md` — visão geral do negócio/site, referências de design, direção e identidade, sitemap, estrutura por página, formulário único, header/footer, histórico de implementações, pendências, e referência cruzada a demais docs.
+- **Sitemap**: Rotas `/familia-e-amigos`, `/eventos-corporativos`, `/nossa-historia`, `/faq`; redirect `/experiencias` → `/familia-e-amigos`; navegação com dropdowns (Experiências Privadas, Aprenda).
+- **Formulário único de cotação**: Campos obrigatórios (experiência, pessoas, nome, email, localização, como chegou); localização cidade/bairro (sem CEP); WhatsApp formatado; opcionais empresa e chamada de vídeo; API aceita payload novo.
+- **Header**: Dinâmico no scroll; desktop com duas camadas (logo+redes que some + nav fixa com dropdowns); mobile com hamburger.
+- **Home**: Carrossel de ofertas, Como funciona visual, oferta experiências, "Onde atendemos", newsletter virtual, CTA Nossa história, Quem já viveu, comunidade (newsletter com aceite por padrão e nome opcional), CTA final.
+- **Contato**: Hero "Prefere WhatsApp?"; blocos Colabore conosco e Parcerias; formulário. **Footer**: Redesign com CTAs Instagram/TikTok. **WhatsApp flutuante** em todas as páginas.
+
+**Justificativa**:
+- Uma única fonte da verdade evita dispersão e perda de contexto ao longo do curso e em melhorias futuras.
+- PWAP oferece padrões de UX/UI e estrutura de oferta alinhados ao negócio Verde Barro; refino aumenta clareza e conversão.
+
+**Impacto**:
+- Toda evolução do site deve ser refletida no documento consolidado e, quando aplicável, no Decisions Log e Backlog.
+- README e fluxos "Para Desenvolver/Manter" passam a indicar o documento consolidado como primeira referência do site piloto.
+
+**Riscos/Trade-offs**: Nenhum significativo.
+
+---
+
+### DEC-025: Refino UX/UI do header, footer, Família e Amigos e carrossel da Home (Verde Barro)
+**Data**: 2026-02-08  
+**Fase**: I — Implementação Site Go-Live / Otimização  
+**Decisão**: Ajustes de alinhamento, branding, responsividade e interação no header (desktop e mobile), footer (newsletter), página Família e Amigos e carrossel de ofertas da Home, com documentação no Decisions Log e no documento consolidado do site.
+
+**Contexto**:
+- Feedback de uso: header com itens em duas linhas e página ativa com mudança de fonte estranha; footer newsletter truncando "Seu email" em larguras intermediárias; Família e Amigos com ofertas e "Como funciona" empilhados em vez de lado a lado; carrossel com arraste pouco responsivo, CTA às vezes bloqueado após arraste e auto-advance sem loop correto para a terceira oferta.
+
+**Decisões de implementação**:
+- **Header**: (1) Layer 1 desktop em grid de 3 colunas para centralização horizontal real do logo e blocos laterais. (2) Página ativa no nav em **negrito + sublinhado** (sem mudar família da fonte). (3) Itens do nav em **uma linha** (`whitespace-nowrap`). (4) Maior espaçamento horizontal entre itens (`gap-4 md:gap-6`). (5) Menu hamburger (mobile) com **font-serif** em todo o painel para alinhar ao branding.
+- **Footer newsletter**: Layout email + botão em coluna abaixo do breakpoint `md`, para o placeholder "Seu email" não truncar; botão "Entrar na comunidade" abaixo do campo em telas estreitas.
+- **Família e Amigos**: Grid fixo em **duas colunas** (`grid-cols-2`), ofertas à esquerda (max-width 280px) e "Como funciona" à direita no mesmo bloco vertical, em todas as larguras.
+- **Carrossel Home**: (1) Arraste por mouse/touch: pointer capture só após movimento >10px, para **CTA permanecer clicável** em tap/clique. (2) Auto-advance em loop: uso de `indexRef` no setInterval para garantir avanço 0→1→2→0 (incl. "Peças autorais"). (3) Remoção do texto "Xs · Nome da oferta" ao lado do timer/dots (redundante). (4) Dots com `role="tablist"`/`role="tab"` e `aria-label` por oferta para acessibilidade.
+
+**Justificativa**: Manter padrão de branding (serif, simetria), melhorar responsividade e usabilidade sem adicionar ruído visual; garantir que o CTA do carrossel seja o único elemento clicável para navegação e que o loop automático funcione em todas as ofertas.
+
+**Impacto**: Header e carrossel mais consistentes e utilizáveis; documento consolidado e Decisions Log atualizados para rastreabilidade.
+
+**Riscos/Trade-offs**: Nenhum significativo.
+
+---
+
 ## 📊 Estatísticas
 
-- **Total de decisões registradas**: 23
+- **Total de decisões registradas**: 25
 - **Decisões pendentes**: 0
-- **Última atualização**: 2026-01-28
+- **Última atualização**: 2026-02-08

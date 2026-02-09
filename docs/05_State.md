@@ -1,6 +1,12 @@
 # Estado Atual do Projeto — Verde Barro Cerâmica
 
-> **Última atualização**: 2026-02-01
+> **Última atualização**: 2026-02-08
+
+---
+
+## 📄 Documento consolidado do site (fonte única da verdade)
+
+**`docs/08_Site_Verde_Barro_Consolidado.md`** consolida direcionamento, estratégia, estrutura, implementações realizadas e pendências do site Verde Barro. Use como primeira referência para contexto e otimizações futuras.
 
 ---
 
@@ -59,6 +65,17 @@
 - [x] Webhook Stripe testado
 - [x] Lição documentada em `course/O_Operacao_Infra/O3_Infraestrutura_Basica.md`
 
+### Refino do site (referência PWAP e documento consolidado) — 2026-02-08
+- [x] Documentação: REFERENCIA_POTTERY_WITH_A_PURPOSE.md, SITEMAP_ESTRUTURA.md, direção de design atualizada
+- [x] Formulário único de cotação (CotacaoForm) e API adaptada
+- [x] Novas páginas: Nossa história, Eventos corporativos, Família e Amigos, FAQ; redirect Experiências → Família e Amigos
+- [x] Home: carrossel ofertas, Como funciona visual, oferta experiências, onde atendemos, newsletter virtual, CTA história, reviews, comunidade, CTA final
+- [x] Contato: WhatsApp primário, Colabore/Parcerias, formulário
+- [x] Header dinâmico (scroll, dropdowns, mobile hamburger)
+- [x] Footer redes (Instagram, TikTok) e links atualizados
+- [x] WhatsApp flutuante global
+- [x] Documento consolidado 08_Site_Verde_Barro_Consolidado.md criado; Decisions Log (DEC-024), Backlog e README atualizados
+
 ---
 
 ## ⏳ Pendente
@@ -85,8 +102,9 @@
 - **Lições concluídas**: 15/17 (Fase A + R + C + O + S1 + S2 completas)
 - **Prompts criados**: 11
 - **Checkpoints criados**: 3
-- **Decisões registradas**: 22
+- **Decisões registradas**: 24
 - **Auditorias realizadas**: 4
+- **Documento consolidado do site**: 08_Site_Verde_Barro_Consolidado.md (fonte única da verdade)
 
 ---
 
@@ -116,4 +134,5 @@ Nenhum no momento.
 
 ---
 
-**Próxima atualização**: Após conclusão da Lição S3
+**Próxima atualização**: Após conclusão da Lição S3 ou nova alteração de escopo do site.  
+**Referência do site**: `docs/08_Site_Verde_Barro_Consolidado.md`
