@@ -142,7 +142,7 @@ A paleta reflete os elementos da cerâmica: terra, natureza, calor, simplicidade
 
 | Cor | Código Hex | Uso |
 |-----|------------|-----|
-| Verde Oliva | `#888F5D` | Primária: títulos, botões, acentos, logo principal |
+| Verde Oliva | `#87915C` | Primária: títulos, botões, acentos, logo principal |
 | Off-white Areia | `#F3F0EA` | Fundos, espaços em branco, respiração visual |
 | Terracota Suave | `#CFA585` | Acentos, destaques, elementos decorativos |
 | Verde Musgo Escuro | `#4E5633` | Textos escuros, bordas, elementos gráficos |
