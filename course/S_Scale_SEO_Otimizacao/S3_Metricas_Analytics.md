@@ -8,7 +8,9 @@
 
 ## Objetivo da Lição
 
-Configurar o **painel de métricas** do site Verde Barro: conectar Google Search Console (SEO), definir analytics de tráfego e conversão, e estabelecer o que acompanhar mensalmente para evoluir com base em dados reais.
+Configurar o **painel de métricas** do site: conectar Google Search Console (SEO), ativar analytics de tráfego e definir o que acompanhar mensalmente para evoluir com base em dados reais.
+
+**Quando executar:** Depois que o site estiver **completo e em produção** (Fase I — Implementação de Site Completo e Go-Live concluída). Com o site no ar, os dados passam a fazer sentido; antes disso, métricas são apenas configuração.
 
 ---
 
@@ -107,12 +109,18 @@ Definir um “painel” = lista de indicadores que você olha com frequência (e
 
 - **Sitemap no GSC:** o sitemap enviado retornou “Couldn’t fetch”. Resolver aplicando as alterações em `verde-barro-site/src/app/sitemap.ts` (resiliência à falha da Notion API + baseUrl sem barra final) e `robots.ts` (baseUrl normalizada); fazer redeploy; em Search Console > Sitemaps, reenviar `sitemap.xml`.
 
+## Passos práticos (executar com site já no ar)
+
+1. **Search Console:** Adicionar recurso (prefixo de URL do site), verificar via tag HTML (`NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` + deploy), enviar sitemap (`/sitemap.xml`). Se "Couldn't fetch", corrigir sitemap (resiliência + baseUrl) e reenviar.
+2. **Vercel Analytics:** Em Vercel → projeto → Settings → Analytics, ativar "Web Analytics". Dados aparecem em 24–48h.
+3. **Painel:** Criar doc ou planilha com a tabela "Sugestão para Verde Barro" (acima); na primeira revisão mensal (S4), preencher com números reais do GSC, Vercel e Supabase.
+4. **S4:** Agendar primeira revisão (ex.: 30 dias após go-live) e seguir a rotina da lição S4.
+
 ## Próximos passos
 
-1. **Pendência:** Resolver sitemap (acima) quando for conveniente.
-2. **Ação do usuário:** No dashboard Vercel, ativar Web Analytics do projeto (se ainda não ativou).
-3. Definir data para primeira revisão mensal (ex.: 30 dias após go-live).
-4. **S3 finalizada.** Seguir para **S4 — Otimização Contínua**.
+1. **Pendência:** Resolver sitemap no GSC (acima) quando o site estiver em produção.
+2. Ativar Web Analytics no dashboard Vercel.
+3. Seguir para **S4 — Otimização Contínua** (rotina pós go-live).
 
 ---
 

@@ -17,7 +17,13 @@
 
 ### Pendências
 
-*Nenhuma no momento*
+**PEN-001**: Mapa ou lista "Onde atendemos" (Grande SP) na Home  
+**Prioridade**: Média  
+**Descrição**: Substituir placeholder da seção "Onde realizamos" por mapa real ou lista de cidades/regiões, mantendo visual claro e útil.
+
+**PEN-002**: Colunas opcionais no Supabase para cotação  
+**Prioridade**: Baixa  
+**Descrição**: Se for necessário filtrar/relatar por "como chegou" ou "nome empresa", adicionar colunas em `solicitacoes_experiencias` e preenchê-las na API (hoje esses dados vão em `observacoes`).
 
 ---
 
@@ -49,6 +55,14 @@
 **Prioridade**: Baixa  
 **Descrição**: Ferramenta para validar se prompts seguem o formato esperado.
 
+**MEL-003**: Reforçar prova social com reviews reais (Verde Barro)  
+**Prioridade**: Média  
+**Descrição**: Boas práticas para exibir depoimentos reais (nome, contexto, foto quando autorizado) em negócios em início.
+
+**MEL-004**: reCAPTCHA em formulários (Verde Barro)  
+**Prioridade**: Baixa  
+**Descrição**: Avaliar inclusão no formulário de cotação e no de contato se houver spam.
+
 ---
 
 ### Débito Técnico
@@ -59,12 +73,12 @@
 
 ## 📊 Estatísticas
 
-- **Total de itens**: 4
-- **Pendências**: 0
-- **Melhorias**: 2
+- **Total de itens**: 8
+- **Pendências**: 2
+- **Melhorias**: 4
 - **Ideias**: 2
 - **Débito técnico**: 0
 
 ---
 
-**Última atualização**: 2025-01-25
+**Última atualização**: 2026-02-08

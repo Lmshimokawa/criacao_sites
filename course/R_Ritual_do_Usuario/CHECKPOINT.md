@@ -306,9 +306,9 @@ A Fase R estabeleceu a experiência do usuário e arquitetura do site:
 **Ofertas refinadas**: Modelagem + Pintura + Peças
 **Inovação**: Checkout compartilhável para viralização
 
-A Fase C irá converter essa arquitetura em wireframes, copy e CTAs prontos para implementação.
+A Fase C irá converter essa arquitetura em wireframes, copy e CTAs. A **Fase I** (Implementação de Site Completo e Go-Live) implementa todas as páginas do sitemap e os fluxos de conversão no site final.
 
 ---
 
-**Última atualização**: 2025-01-28  
-**Próxima revisão**: Após conclusão da Fase C
+**Última atualização**: 2026-01-28  
+**Próxima revisão**: Após conclusão da Fase I

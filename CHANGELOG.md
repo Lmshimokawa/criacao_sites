@@ -9,6 +9,19 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
 ## [Unreleased]
 
+### Adicionado (Reestruturação framework e curso — 2026-01-28)
+- **Fase I — Implementação de Site Completo e Go-Live** como **5ª fase** do framework (entre O e S). O curso passou a ter **6 macrofases**; a implementação do site completo está integrada no DNA do curso.
+- **Nova pasta do curso** `course/I_Implementacao_Site_GoLive/`: lições I1 (Critérios e checklist), I2 (Páginas, conteúdo e branding), I3 (Integrações e canais de conversão), I4 (Go-live, SEO e verificação final) e CHECKPOINT.md.
+- **Planejamento** (`planejamento_curso_completo_de_criacao_de_sites_de_negocios.md`): visão geral atualizada para 6 fases; Fase I com lições I1–I4 e checklist de conclusão; entregáveis das fases A, R, C, O passam a referenciar "implementados na Fase I" onde aplicável; remoção da seção solta "ETAPA OBRIGATÓRIA" (conteúdo incorporado à Fase I).
+- **docs/01_ARCOS_Framework.md**: estrutura em 6 fases; descrição da Fase I; checklist final referenciando Fase I.
+- **docs/02_Course_Roadmap.md**: seção completa da Fase I (I1–I4 e Checkpoint I); status geral atualizado; remoção da seção "ETAPA OBRIGATÓRIA" em favor da Fase I.
+- **Checkpoints e lições** (A, R, C, O, S): referências à Fase I (próxima fase após O; wireframes/copy aplicados na Fase I; S3/S4 executados após Fase I concluída).
+- Checklist de conclusão do curso segue na Fase I (site completo em operação).
+- **Checklist final do framework** atualizado: item "Site completo em produção"; conversão testada e conteúdo publicado refinados.
+- **docs/01_ARCOS_Framework.md** e **docs/02_Course_Roadmap.md**: checklist e seção go-live; status geral alinhado.
+- **S3 e S4** (`course/S_Scale_SEO_Otimizacao/`): "Quando executar" (após go-live); "Passos práticos" com links e ações concretas (GSC, Vercel Analytics, Supabase, primeira revisão).
+- **DEC-023** em `docs/03_Decisions_Log.md`: decisão de reestruturação registrada.
+
 ### Concluído
 - ✅ Lição S2 — Conteúdo de Autoridade (2026-02-04):
   - Status da lição atualizado para Concluída em `course/S_Scale_SEO_Otimizacao/S2_Conteudo_Autoridade.md`

@@ -28,7 +28,8 @@ Este repositório contém:
 │   ├── 04_Audit_Log.md
 │   ├── 05_State.md
 │   ├── 06_Backlog.md
-│   └── 07_Definitions_Glossary.md
+│   ├── 07_Definitions_Glossary.md
+│   └── 08_Site_Verde_Barro_Consolidado.md  # Fonte única da verdade do site piloto
 │
 ├── prompts/                 # Biblioteca de prompts reutilizáveis
 │   ├── README.md
@@ -80,9 +81,10 @@ Este repositório contém:
 3. Siga a estrutura ARCOS™ documentada
 
 ### Para Desenvolver/Manter
-1. Consulte `docs/05_State.md` para estado atual
-2. Verifique `docs/06_Backlog.md` para pendências
-3. Revise `docs/04_Audit_Log.md` para inconsistências
+1. Consulte **`docs/08_Site_Verde_Barro_Consolidado.md`** como fonte única da verdade do site piloto (direção, estrutura, implementações, pendências)
+2. Consulte `docs/05_State.md` para estado atual do curso
+3. Verifique `docs/06_Backlog.md` para pendências
+4. Revise `docs/04_Audit_Log.md` para inconsistências
 
 ---
 

@@ -234,6 +234,69 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ---
 
+## 📍 FASE I — IMPLEMENTAÇÃO DE SITE COMPLETO E GO-LIVE
+
+A Fase I é **obrigatória** e está no DNA do curso: converte todos os insumos (A, R, C, O) em **site final completo em produção**, em **nível de agência de branding e web design**. O aluno fornece **1–3 sites de referência** para copiar formato, UX, UI e estilo — adaptados à sua marca; o resultado não deve parecer genérico, feito por IA ou por desenvolvedores preguiçosos. Sem concluir a Fase I nesse nível, o curso não está concluído.
+
+### ⏳ Lição I1 — Critérios de Site Completo e Qualidade Nível Agência
+**Status**: ⏳ Pendente / Em andamento  
+**Objetivo**: Definir critério de "site completo" e **barra de qualidade nível agência** (hierarquia visual, design system, identidade reconhecível; evitar "look de IA").
+
+**Entregáveis**:
+- [ ] Checklist de site completo e go-live internalizado (incluindo critérios UI/UX e branding)
+- [ ] Documentação: `course/I_Implementacao_Site_GoLive/I1_Criterios_Site_Completo_Checklist.md`
+
+---
+
+### ⏳ Lição I2 — Referências de Site e Direção de Design
+**Status**: ⏳ Pendente  
+**Objetivo**: Aluno indica 1–3 sites de referência; documentar **direção de design** (padrões de layout, UX, UI e estilo extraídos + adaptação à marca do aluno). A implementação (I3) segue essa direção.
+
+**Entregáveis**:
+- [ ] Lista de 1–3 URLs de referência fornecidas pelo aluno
+- [ ] Documento de direção de design (padrões extraídos + especificação de adaptação à marca)
+- [ ] Documentação: `course/I_Implementacao_Site_GoLive/I2_Referencias_Site_Direcao_Design.md`
+
+---
+
+### ⏳ Lição I3 — Páginas, Conteúdo e Branding (Seguindo a Direção I2)
+**Status**: ⏳ Pendente  
+**Objetivo**: Implementar todas as páginas do sitemap com copy aplicado e branding **seguindo a direção de design (I2)** — design nível agência.
+
+**Entregáveis**:
+- [ ] Home, Experiências, Peças, Contato, Blog, Legal — conteúdo e design finais no nível da direção de design
+- [ ] Branding com identidade reconhecível; design system aplicado
+- [ ] Documentação: `course/I_Implementacao_Site_GoLive/I3_Paginas_Conteudo_Branding.md`
+
+---
+
+### ⏳ Lição I4 — Integrações e Canais de Conversão
+**Status**: ⏳ Pendente  
+**Objetivo**: Integrar formulário, WhatsApp, agendamento, checkout; validar UX dos fluxos; polimento visual no mesmo nível da direção de design.
+
+**Entregáveis**:
+- [ ] Formulário solicitação → API → banco; WhatsApp e Cal.com via env; checkout quando aplicável
+- [ ] Estados loading/erro/sucesso; fluxos fechados
+- [ ] Documentação: `course/I_Implementacao_Site_GoLive/I4_Integracoes_Canais_Conversao.md`
+
+---
+
+### ⏳ Lição I5 — Go-Live, SEO e Verificação Final
+**Status**: ⏳ Pendente  
+**Objetivo**: Deploy em produção; sitemap e SEO funcionais; métricas ativas; documento para o usuário (incluindo referências e direção de design).
+
+**Entregáveis**:
+- [ ] Site em produção (deploy estável, env documentadas)
+- [ ] sitemap.xml funcional; GSC e analytics configuráveis/ativos
+- [ ] Documento "Informações que o usuário precisa fornecer" (ex.: `verde-barro-site/INFORMACOES_PARA_O_USUARIO.md`) com **referências de site**
+- [ ] Documentação: `course/I_Implementacao_Site_GoLive/I5_GoLive_SEO_Verificacao_Final.md`
+
+**Checkpoint I**: `course/I_Implementacao_Site_GoLive/CHECKPOINT.md`
+
+**Ordem do curso**: Fase I é executada **após a Fase O**. I2 (referências) antecede I3 (implementação das páginas). A Fase S faz sentido com o site já no ar: S1/S2 podem ser em paralelo ou após I; S3/S4 são **pós go-live**.
+
+---
+
 ## 📍 FASE S — SCALE, SEO & OTIMIZAÇÃO CONTÍNUA
 
 ### ✅ Lição S1 — SEO Estratégico
@@ -283,9 +346,9 @@ Este documento mapeia o caminho completo do curso, lição por lição, com entr
 
 ## 🎯 Status Geral
 
-**Fase atual**: S — Scale, SEO & Otimização Contínua  
-**Lição atual**: S3 — Métricas e Analytics (Em andamento)  
-**Progresso**: 15/17 lições concluídas (88%)
+**Estrutura do curso**: 6 fases — A, R, C, O, **I** (Implementação de site completo e go-live), S.  
+**Fase atual**: I (Implementação) e S (Scale, SEO & Otimização).  
+**Critério de conclusão**: Fase I concluída (checklist em `course/I_Implementacao_Site_GoLive/CHECKPOINT.md`); em seguida S3/S4 pós go-live.
 
 ---
 
