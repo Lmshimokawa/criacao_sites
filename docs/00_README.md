@@ -48,10 +48,11 @@ Este repositório contém:
 │   └── S_Scale_SEO_Otimizacao/
 │
 ├── src/                     # Código-fonte do site (stack a definir)
-├── assets/                  # Recursos estáticos
-│   ├── brand/
-│   ├── images/
-│   └── references/
+├── verde-barro-site/        # Site piloto + central de conhecimento da marca
+│   ├── assets/              # Recursos da marca Verde Barro (guia, logos, imagens)
+│   │   ├── brand/
+│   │   └── images/
+│   └── ...
 │
 └── CHANGELOG.md             # Histórico de mudanças
 ```

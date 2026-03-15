@@ -36,7 +36,7 @@ Documentos detalhados no repositório:
 - **Direção de design**: `verde-barro-site/docs/direcao_design_verde_barro.md`
 - **Diagnóstico PWAP**: `verde-barro-site/docs/REFERENCIA_POTTERY_WITH_A_PURPOSE.md`
 - **Sitemap e estrutura**: `verde-barro-site/docs/SITEMAP_ESTRUTURA.md`
-- **Guia de marca**: `assets/brand/Verde_Barro_Guia_de_Marca_v3.md`
+- **Guia de marca**: `verde-barro-site/assets/brand/Verde_Barro_Guia_de_Marca_v3.md`
 
 ---
 
@@ -190,7 +190,7 @@ Documentos detalhados no repositório:
 
 | Documento | Caminho | Uso |
 |------------|---------|-----|
-| Guia de Marca v3 | `assets/brand/Verde_Barro_Guia_de_Marca_v3.md` | Essência, história, posicionamento, tom, identidade visual, fotografia. |
+| Guia de Marca v3 | `verde-barro-site/assets/brand/Verde_Barro_Guia_de_Marca_v3.md` | Essência, história, posicionamento, tom, identidade visual, fotografia. |
 | Direção de design | `verde-barro-site/docs/direcao_design_verde_barro.md` | Referências (Benza, Lóv, PWAP), padrões de UI, checklist. |
 | Referência PWAP | `verde-barro-site/docs/REFERENCIA_POTTERY_WITH_A_PURPOSE.md` | Diagnóstico estratégico do site de referência. |
 | Sitemap e estrutura | `verde-barro-site/docs/SITEMAP_ESTRUTURA.md` | Rotas, formulário, header, footer, elemento global. |

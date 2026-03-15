@@ -9,6 +9,9 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
 ## [Unreleased]
 
+### Alterado (2026-03-14)
+- **Migração de assets**: Pasta `assets/` (brand, images/Logo) migrada para `verde-barro-site/assets/`, centralizando conhecimento e recursos da marca Verde Barro no repositório do site. Referências em `docs/00_README.md`, `docs/05_State.md`, `docs/08_Site_Verde_Barro_Consolidado.md` e decisão DEC-026 em `docs/03_Decisions_Log.md` atualizadas. A pasta `assets/` na raiz foi removida.
+
 ### Adicionado (Reestruturação framework e curso — 2026-01-28)
 - **Fase I — Implementação de Site Completo e Go-Live** como **5ª fase** do framework (entre O e S). O curso passou a ter **6 macrofases**; a implementação do site completo está integrada no DNA do curso.
 - **Nova pasta do curso** `course/I_Implementacao_Site_GoLive/`: lições I1 (Critérios e checklist), I2 (Páginas, conteúdo e branding), I3 (Integrações e canais de conversão), I4 (Go-live, SEO e verificação final) e CHECKPOINT.md.
@@ -209,7 +212,7 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
   - Pendente: implementação no site (meta tags por página, sitemap, robots)
 
 ### Adicionado
-- Estrutura completa do repositório (docs/, prompts/, course/, src/, assets/)
+- Estrutura completa do repositório (docs/, prompts/, course/, src/; assets da marca desde 2026-03-14 em verde-barro-site/assets/)
 - Arquivos núcleo em `docs/`:
   - `00_README.md` — Visão geral do projeto
   - `01_ARCOS_Framework.md` — Documentação completa do framework
@@ -221,7 +224,7 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
   - `07_Definitions_Glossary.md` — Glossário de termos
 - Estrutura de `prompts/` com categorias (strategy, ux-ui, copy, seo, analytics, infra-deploy)
 - Estrutura de `course/` com todas as fases ARCOS
-- Estrutura de `assets/` (brand, images, references)
+- Estrutura de assets da marca em `verde-barro-site/assets/` (brand, images/Logo)
 - `prompts/README.md` — Documentação da biblioteca de prompts
 - Caso piloto definido: Verde Barro Cerâmica
 - **Lição A1 — Proposta de Valor**:

@@ -708,8 +708,25 @@ Cada decisão deve conter:
 
 ---
 
+### DEC-026: Migração de assets da marca para verde-barro-site
+**Data**: 2026-03-14  
+**Fase**: Operação / Organização  
+**Decisão**: Centralizar todos os recursos da marca Verde Barro (guia de marca, logos, imagens) em `verde-barro-site/assets/`, removendo a pasta `assets/` da raiz do repositório.
+
+**Contexto**:
+- O repositório passou a ser usado não só como base de deploy do site, mas como central de conhecimento da marca.
+- Manter assets dentro do projeto do site evita duplicação e mantém uma única fonte da verdade; arquivos em `verde-barro-site/assets/` não são servidos em produção (ficam fora de `public/`), portanto não impactam a velocidade do site.
+
+**Justificativa**: Um único lugar para documentação e assets da Verde Barro; referências em docs atualizadas para `verde-barro-site/assets/`.
+
+**Impacto**: Estrutura do repositório (raiz sem `assets/`); documentação em `docs/` e CHANGELOG atualizados; `verde-barro-site/README.md` e `verde-barro-site/assets/README.md` documentam a pasta.
+
+**Riscos/Trade-offs**: Nenhum significativo.
+
+---
+
 ## 📊 Estatísticas
 
-- **Total de decisões registradas**: 25
+- **Total de decisões registradas**: 26
 - **Decisões pendentes**: 0
-- **Última atualização**: 2026-02-08
+- **Última atualização**: 2026-03-14
