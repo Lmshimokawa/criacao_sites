@@ -25,7 +25,7 @@
 - [x] Arquivos núcleo em `docs/` criados e preenchidos
 - [x] Estrutura de `prompts/` criada
 - [x] Estrutura de `course/` criada
-- [x] Estrutura de `assets/` criada
+- [x] Assets da marca em `verde-barro-site/assets/` (brand, images/Logo)
 - [x] CHANGELOG.md criado
 
 ### Lição A1 — Proposta de Valor
